@@ -12,9 +12,6 @@ namespace ApiWebDB.Services.DTOs
 
         public string Documento { get; set; }
 
-        /// <summary>
-        /// 0 - CPF, 1 - CNPJ, 2 - Passaporte, 3 - CNH, 99 - Outros
-        /// </summary>
         public int Tipodoc { get; set; }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repositórios\\Trabalho 2\\ApiWebDB\\ApiWebDB.csproj": {}
+    "C:\\Users\\usuario\\Downloads\\Paradigmas-master\\Paradigmas-master\\ApiWebDB\\ApiWebDB.csproj": {}
   },
   "projects": {
-    "C:\\Repositórios\\Trabalho 2\\ApiWebDB\\ApiWebDB.csproj": {
+    "C:\\Users\\usuario\\Downloads\\Paradigmas-master\\Paradigmas-master\\ApiWebDB\\ApiWebDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositórios\\Trabalho 2\\ApiWebDB\\ApiWebDB.csproj",
+        "projectUniqueName": "C:\\Users\\usuario\\Downloads\\Paradigmas-master\\Paradigmas-master\\ApiWebDB\\ApiWebDB.csproj",
         "projectName": "ApiWebDB",
-        "projectPath": "C:\\Repositórios\\Trabalho 2\\ApiWebDB\\ApiWebDB.csproj",
+        "projectPath": "C:\\Users\\usuario\\Downloads\\Paradigmas-master\\Paradigmas-master\\ApiWebDB\\ApiWebDB.csproj",
         "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositórios\\Trabalho 2\\ApiWebDB\\obj\\",
+        "outputPath": "C:\\Users\\usuario\\Downloads\\Paradigmas-master\\Paradigmas-master\\ApiWebDB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,15 +45,33 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0-preview.1.24081.2, )"
+              "version": "[9.0.0-preview.3.24172.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0-preview.3.24172.4, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[9.0.0-preview.3, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

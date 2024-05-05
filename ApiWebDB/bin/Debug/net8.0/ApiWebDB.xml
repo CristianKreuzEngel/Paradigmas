@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiWebDB</name>
+    </assembly>
+    <members>
+        <member name="M:ApiWebDB.Controllers.ClientesController.Insert(ApiWebDB.Services.DTOs.ClienteDTO)">
+            <summary>
+            Insere um novo cliente na base de dados.
+            Retorna 200 se bem-sucedido, 422 para entidade inválida e 400 para requisição inválida.
+            </summary>
+            <param name="cliente">O DTO do cliente a ser inserido.</param>
+            <returns>O cliente inserido, incluindo o ID gerado.</returns>
+        </member>
+        <member name="M:ApiWebDB.Controllers.ClientesController.Update(System.Int32,ApiWebDB.Services.DTOs.ClienteDTO)">
+            <summary>
+            Atualiza um cliente na base de dados pelo ID.
+            Retorna 200 se bem-sucedido e 400 para requisição inválida.
+            </summary>
+            <param name="id">O ID do cliente a ser atualizado.</param>
+            <param name="dto">O DTO do cliente a ser atualizado.</param>
+            <returns>O cliente atualizado, incluindo todos os seus campos.</returns>
+        </member>
+        <member name="M:ApiWebDB.Controllers.ClientesController.Delete(System.Int32)">
+            <summary>
+            Deleta um cliente da base de dados pelo ID.
+            Retorna 204 se bem-sucedido, 404 se o cliente não for encontrado e 500 para erro interno do servidor.
+            </summary>
+            <param name="id">O ID do cliente a ser deletado.</param>
+            <returns>Retorna NoContent se o cliente for deletado com sucesso.</returns>
+        </member>
+        <member name="M:ApiWebDB.Controllers.ClientesController.GetById(System.Int32)">
+            <summary>
+            Obtém um cliente da base de dados pelo ID.
+            Retorna 200 se bem-sucedido, 404 se o cliente não for encontrado e 500 para erro interno do servidor.
+            </summary>
+            <param name="id">O ID do cliente a ser obtido.</param>
+            <returns>O cliente obtido, incluindo todos os seus campos.</returns>
+        </member>
+        <member name="M:ApiWebDB.Controllers.ClientesController.Get">
+            <summary>
+            Obtém todos os clientes da base de dados.
+            Retorna 200 se bem-sucedido, 404 se nenhum cliente for encontrado e 500 para erro interno do servidor.
+            </summary>
+            <returns>Uma lista de todos os clientes, incluindo todos os seus campos.</returns>
+        </member>
+        <member name="M:ApiWebDB.Controllers.EnderecoController.InsertAddress(ApiWebDB.Services.DTOs.EnderecoDTO)">
+            <summary>
+            Insere um novo endereço na base de dados.
+            Retorna 200 se bem-sucedido, 400 para requisição inválida e 422 para entidade inválida.
+            </summary>
+            <param name="endereco">O DTO do endereço a ser inserido. Este deve incluir todos os campos necessários para criar um novo endereço.</param>
+            <returns>O endereço inserido, incluindo o ID gerado.</returns>
+        </member>
+        <member name="M:ApiWebDB.Controllers.EnderecoController.GetAddress(System.Int32)">
+            <summary>
+            Obtém um endereço da base de dados pelo ID.
+            Retorna 200 se bem-sucedido e 500 para erro interno do servidor.
+            </summary>
+            <param name="id">O ID do endereço a ser obtido. Este deve ser o ID de um endereço existente na base de dados.</param>
+            <returns>O endereço obtido, incluindo todos os seus campos.</returns>
+        </member>
+        <member name="M:ApiWebDB.Controllers.EnderecoController.DeleteAddress(System.Int32)">
+            <summary>
+            Deleta um endereço da base de dados pelo ID.
+            Retorna 204 se bem-sucedido, 404 se o endereço não for encontrado e 500 para erro interno do servidor.
+            </summary>
+            <param name="id">O ID do endereço a ser deletado. Este deve ser o ID de um endereço existente na base de dados.</param>
+            <returns>Retorna NoContent se o endereço for deletado com sucesso.</returns>
+        </member>
+        <member name="M:ApiWebDB.Controllers.EnderecoController.UpdateAddress(ApiWebDB.Services.DTOs.EnderecoDTO,System.Int32)">
+            <summary>
+            Atualiza um endereço na base de dados pelo ID.
+            Retorna 200 se bem-sucedido, 400 para requisição inválida, 404 se o endereço não for encontrado e 422 para entidade inválida.
+            </summary>
+            <param name="dto">O DTO do endereço a ser atualizado. Este deve incluir todos os campos que devem ser atualizados.</param>
+            <param name="id">O ID do endereço a ser atualizado. Este deve ser o ID de um endereço existente na base de dados.</param>
+            <returns>O endereço atualizado, incluindo todos os seus campos.</returns>
+        </member>
+        <member name="P:ApiWebDB.BaseDados.Models.TbCliente.Tipodoc">
+            <summary>
+            1 - CPF, 2 - CNPJ, 3 - Passaporte, 4 - CNH, 99 - Outros
+            </summary>
+        </member>
+        <member name="P:ApiWebDB.BaseDados.Models.TbEndereco.Status">
+            <summary>
+            0 - inativo\n1 - ativo
+            </summary>
+        </member>
+        <member name="P:ApiWebDB.Services.DTOs.EnderecoDTO.Cep">
+            <example>
+            89870000
+            </example>
+        </member>
+        <member name="P:ApiWebDB.Services.DTOs.EnderecoDTO.Logradouro">
+            <example>
+            Rua Theobaldo Ross
+            </example>
+        </member>
+        <member name="P:ApiWebDB.Services.DTOs.EnderecoDTO.Numero">
+            <example>
+            573
+            </example>
+        </member>
+        <member name="P:ApiWebDB.Services.DTOs.EnderecoDTO.Complemento">
+            <example>
+            Casa
+            </example>
+        </member>
+        <member name="P:ApiWebDB.Services.DTOs.EnderecoDTO.Bairro">
+            <example>
+            Morada do Sol 3
+            </example>
+        </member>
+        <member name="P:ApiWebDB.Services.DTOs.EnderecoDTO.Cidade">
+            <example>
+            Saudades
+            </example>
+        </member>
+        <member name="P:ApiWebDB.Services.DTOs.EnderecoDTO.Uf">
+            <example>
+            SC
+            </example>
+        </member>
+        <member name="P:ApiWebDB.Services.DTOs.EnderecoDTO.ClienteId">
+            <example>
+            1
+            </example>
+        </member>
+        <member name="P:ApiWebDB.Services.DTOs.EnderecoDTO.Status">
+            <example>
+            1
+            </example>
+        </member>
+    </members>
+</doc>

@@ -1,47 +1,47 @@
-﻿using ApiWebDB.Services.DTOs;
+﻿using ApiWebDB.BaseDados.Models;
+using ApiWebDB.Services.DTOs;
 using ApiWebDB.Services.Exceptions;
-using static ApiWebDB.BaseDados.Models.TbCliente;
+using System;
 
-namespace ApiWebDB.Services.validate
+namespace ApiWebDB.Services.Validate
 {
     public class ClienteValidate
     {
-        private static bool ValidateDocument(TipoDocumento tipo, string document)
+        private static bool ValidateDocument(TipoDocumento tipo, string documento)
         {
             switch (tipo)
             {
                 case TipoDocumento.CPF:
-                    if (document.Length != 11)
-                        throw new BadRequestException("O CPF precisa ter 11 digitos");
+                    if (documento.Length != 11)
+                        throw new BadRequestException("Campo CPF precisa ter 11 digitos");
                     return true;
                 case TipoDocumento.CNPJ:
-                    if (document.Length != 14)
-                        throw new BadRequestException("O CNPJ precisa ter 14 digitos");
+                    if (documento.Length != 14)
+                        throw new BadRequestException("Campo CNPJ precisa ter 14 digitos");
                     return true;
                 case TipoDocumento.Passaporte:
-                    if (document.Length != 8)
-                        throw new BadRequestException("O Passaporte precisa ter 8 digitos");
+                    if (documento.Length != 8)
+                        throw new BadRequestException("Campo Passaporte precisa ter 8 digitos");
                     return true;
                 case TipoDocumento.CNH:
-                    if (document.Length != 11)
-                        throw new BadRequestException("O CNH precisa ter 11 digitos");
+                    if (documento.Length != 11)
+                        throw new BadRequestException("Campo precisa ter 11 registros");
                     return true;
-                default:
+                default :
                     return true;
             }
         }
         public static bool Execute(ClienteDTO dto)
-            {
+        {
             if (string.IsNullOrEmpty(dto.Nome))
-            {
-                throw new InvalidEntityException("Campo Nome é obrigatório");
-            }
-            if(string.IsNullOrEmpty(dto.Documento))
-            {
-                throw new InvalidEntityException("Campo Documento é obrigatório");
-            }
+                throw new InvalidEntityException("Campo nome é obrigatório");
+
+            if (string.IsNullOrEmpty(dto.Documento))
+                throw new InvalidEntityException("Documento nome é obrigatório");
+
             if (dto.Tipodoc <= 0)
-                throw new InvalidEntityException("Campo TipoDoc é obrigatório");
+                throw new InvalidEntityException("Campo tipo de documento não pode ser nulo");
+
             TipoDocumento tipo;
             try
             {
@@ -51,7 +51,7 @@ namespace ApiWebDB.Services.validate
             {
                 throw new InvalidEntityException($"O TipoDoc {dto.Tipodoc} é inválido.");
             }
-            return ValidateDocument( tipo, dto.Documento );
+            return ValidateDocument(tipo, dto.Documento);
         }
     }
 }
