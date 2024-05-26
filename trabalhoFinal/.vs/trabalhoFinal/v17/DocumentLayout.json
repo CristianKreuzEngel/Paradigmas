@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|c:\\reposit\u00F3rios\\paradigmas\\trabalhofinal\\trabalhofinal\\basedados\\tfdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|solutionrelative:trabalhofinal\\basedados\\tfdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|c:\\reposit\u00F3rios\\paradigmas\\trabalhofinal\\trabalhofinal\\services\\dtos\\promotionsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|solutionrelative:trabalhofinal\\services\\dtos\\promotionsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|c:\\reposit\u00F3rios\\paradigmas\\trabalhofinal\\trabalhofinal\\trabalhofinal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|solutionrelative:trabalhofinal\\trabalhofinal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|c:\\reposit\u00F3rios\\paradigmas\\trabalhofinal\\trabalhofinal\\services\\dtos\\productsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|solutionrelative:trabalhofinal\\services\\dtos\\productsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|c:\\reposit\u00F3rios\\paradigmas\\trabalhofinal\\trabalhofinal\\services\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|solutionrelative:trabalhofinal\\services\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|c:\\reposit\u00F3rios\\paradigmas\\trabalhofinal\\trabalhofinal\\services\\parser\\productsparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|solutionrelative:trabalhofinal\\services\\parser\\productsparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|c:\\reposit\u00F3rios\\paradigmas\\trabalhofinal\\trabalhofinal\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|solutionrelative:trabalhofinal\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|c:\\reposit\u00F3rios\\paradigmas\\trabalhofinal\\trabalhofinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,26 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|c:\\reposit\u00F3rios\\paradigmas\\trabalhofinal\\trabalhofinal\\basedados\\models\\tbproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|solutionrelative:trabalhofinal\\basedados\\models\\tbproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|c:\\reposit\u00F3rios\\paradigmas\\trabalhofinal\\trabalhofinal\\basedados\\models\\tbpromotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|solutionrelative:trabalhofinal\\basedados\\models\\tbpromotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|c:\\reposit\u00F3rios\\paradigmas\\trabalhofinal\\trabalhofinal\\basedados\\models\\tbsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|solutionrelative:trabalhofinal\\basedados\\models\\tbsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|c:\\reposit\u00F3rios\\paradigmas\\trabalhofinal\\trabalhofinal\\basedados\\models\\tbstocklog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|solutionrelative:trabalhofinal\\basedados\\models\\tbstocklog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|c:\\reposit\u00F3rios\\paradigmas\\trabalhofinal\\trabalhofinal\\trabalhofinal.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|solutionrelative:trabalhofinal\\trabalhofinal.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|c:\\reposit\u00F3rios\\paradigmas\\trabalhofinal\\trabalhofinal\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CFA8555C-D6E8-48BF-9AF5-5D8F38FB46FB}|trabalhoFinal\\trabalhoFinal.csproj|solutionrelative:trabalhofinal\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,123 +38,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TbStockLog.cs",
-              "DocumentMoniker": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\BaseDados\\Models\\TbStockLog.cs",
-              "RelativeDocumentMoniker": "trabalhoFinal\\BaseDados\\Models\\TbStockLog.cs",
-              "ToolTip": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\BaseDados\\Models\\TbStockLog.cs",
-              "RelativeToolTip": "trabalhoFinal\\BaseDados\\Models\\TbStockLog.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAOAAAA",
+              "DocumentIndex": 0,
+              "Title": "PromotionsDTO.cs",
+              "DocumentMoniker": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\Services\\DTOs\\PromotionsDTO.cs",
+              "RelativeDocumentMoniker": "trabalhoFinal\\Services\\DTOs\\PromotionsDTO.cs",
+              "ToolTip": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\Services\\DTOs\\PromotionsDTO.cs",
+              "RelativeToolTip": "trabalhoFinal\\Services\\DTOs\\PromotionsDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T23:20:06.776Z",
+              "WhenOpened": "2024-05-24T23:05:49.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "TbSale.cs",
-              "DocumentMoniker": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\BaseDados\\Models\\TbSale.cs",
-              "RelativeDocumentMoniker": "trabalhoFinal\\BaseDados\\Models\\TbSale.cs",
-              "ToolTip": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\BaseDados\\Models\\TbSale.cs",
-              "RelativeToolTip": "trabalhoFinal\\BaseDados\\Models\\TbSale.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T23:20:03.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TbPromotion.cs",
-              "DocumentMoniker": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\BaseDados\\Models\\TbPromotion.cs",
-              "RelativeDocumentMoniker": "trabalhoFinal\\BaseDados\\Models\\TbPromotion.cs",
-              "ToolTip": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\BaseDados\\Models\\TbPromotion.cs",
-              "RelativeToolTip": "trabalhoFinal\\BaseDados\\Models\\TbPromotion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T23:19:58.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TbProduct.cs",
-              "DocumentMoniker": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\BaseDados\\Models\\TbProduct.cs",
-              "RelativeDocumentMoniker": "trabalhoFinal\\BaseDados\\Models\\TbProduct.cs",
-              "ToolTip": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\BaseDados\\Models\\TbProduct.cs",
-              "RelativeToolTip": "trabalhoFinal\\BaseDados\\Models\\TbProduct.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T23:19:53.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TfDbContext.cs",
-              "DocumentMoniker": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\BaseDados\\TfDbContext.cs",
-              "RelativeDocumentMoniker": "trabalhoFinal\\BaseDados\\TfDbContext.cs",
-              "ToolTip": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\BaseDados\\TfDbContext.cs",
-              "RelativeToolTip": "trabalhoFinal\\BaseDados\\TfDbContext.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T23:19:27.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "trabalhoFinal",
-              "DocumentMoniker": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\trabalhoFinal.csproj",
-              "RelativeDocumentMoniker": "trabalhoFinal\\trabalhoFinal.csproj",
-              "ToolTip": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\trabalhoFinal.csproj",
-              "RelativeToolTip": "trabalhoFinal\\trabalhoFinal.csproj",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-07T23:16:38.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\Program.cs",
               "RelativeDocumentMoniker": "trabalhoFinal\\Program.cs",
               "ToolTip": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\Program.cs",
               "RelativeToolTip": "trabalhoFinal\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABIAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T23:13:17.738Z",
+              "WhenOpened": "2024-05-21T22:59:08.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "trabalhoFinal\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "trabalhoFinal\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T23:17:18.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsParser.cs",
+              "DocumentMoniker": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\Services\\Parser\\ProductsParser.cs",
+              "RelativeDocumentMoniker": "trabalhoFinal\\Services\\Parser\\ProductsParser.cs",
+              "ToolTip": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\Services\\Parser\\ProductsParser.cs",
+              "RelativeToolTip": "trabalhoFinal\\Services\\Parser\\ProductsParser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T22:21:39.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TbProduct.cs",
+              "DocumentMoniker": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\BaseDados\\Models\\TbProduct.cs",
+              "RelativeDocumentMoniker": "trabalhoFinal\\BaseDados\\Models\\TbProduct.cs",
+              "ToolTip": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\BaseDados\\Models\\TbProduct.cs",
+              "RelativeToolTip": "trabalhoFinal\\BaseDados\\Models\\TbProduct.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T22:11:09.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsDTO.cs",
+              "DocumentMoniker": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\Services\\DTOs\\ProductsDTO.cs",
+              "RelativeDocumentMoniker": "trabalhoFinal\\Services\\DTOs\\ProductsDTO.cs",
+              "ToolTip": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\Services\\DTOs\\ProductsDTO.cs",
+              "RelativeToolTip": "trabalhoFinal\\Services\\DTOs\\ProductsDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T00:49:00.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "trabalhoFinal\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\Properties\\launchSettings.json",
-              "RelativeToolTip": "trabalhoFinal\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-07T23:17:41.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "trabalhoFinal.http",
-              "DocumentMoniker": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\trabalhoFinal.http",
-              "RelativeDocumentMoniker": "trabalhoFinal\\trabalhoFinal.http",
-              "ToolTip": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\trabalhoFinal.http",
-              "RelativeToolTip": "trabalhoFinal\\trabalhoFinal.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-05-07T23:14:14.849Z",
+              "DocumentIndex": 2,
+              "Title": "ProductsService.cs",
+              "DocumentMoniker": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\Services\\ProductsService.cs",
+              "RelativeDocumentMoniker": "trabalhoFinal\\Services\\ProductsService.cs",
+              "ToolTip": "C:\\Reposit\u00F3rios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\Services\\ProductsService.cs",
+              "RelativeToolTip": "trabalhoFinal\\Services\\ProductsService.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAwwEkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T00:45:37.74Z",
               "EditorCaption": ""
             }
           ]

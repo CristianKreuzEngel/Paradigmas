@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace trabalhoFinal.BaseDados.Models2;
+namespace trabalhoFinal.BaseDados.Models;
 
 /// <summary>
 /// Tabela de promoções

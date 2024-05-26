@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace trabalhoFinal.BaseDados.Models2;
+namespace trabalhoFinal.BaseDados.Models;
 
 public partial class TfDbContext : DbContext
 {
@@ -40,7 +40,7 @@ public partial class TfDbContext : DbContext
                 .HasColumnName("id");
             entity.Property(e => e.Barcode)
                 .IsRequired()
-                .HasMaxLength(30)
+                .HasMaxLength(40)
                 .HasComment("código de barras")
                 .HasColumnName("barcode");
             entity.Property(e => e.Barcodetype)

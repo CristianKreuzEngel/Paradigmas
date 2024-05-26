@@ -18,7 +18,7 @@ namespace ApiWebDB.Controllers
         public readonly ClienteService _service;
         public readonly ILogger<ClientesController> _logger;
 
-        public ClientesController(ClienteService service, ILogger<ClientesController> logger)
+        public ClientesContoller(ClienteService service, ILogger<ClientesController> logger)
         {
             _service = service;
             _logger = logger;

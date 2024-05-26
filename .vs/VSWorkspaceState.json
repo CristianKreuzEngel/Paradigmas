@@ -1,12 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ApiWebDB\\BaseDados",
-    "\\ApiWebDB\\BaseDados\\Models",
     "\\trabalhoFinal",
     "\\trabalhoFinal\\trabalhoFinal",
-    "\\trabalhoFinal\\trabalhoFinal\\BaseDados"
+    "\\trabalhoFinal\\trabalhoFinal\\BaseDados",
+    "\\trabalhoFinal\\trabalhoFinal\\Services"
   ],
-  "SelectedNode": "\\trabalhoFinal\\trabalhoFinal\\Program.cs",
+  "SelectedNode": "\\trabalhoFinal\\trabalhoFinal.sln",
   "PreviewInSolutionExplorer": false
 }
