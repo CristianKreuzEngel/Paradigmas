@@ -1,126 +1,91 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using trabalhoFinal.BaseDados.Models;
-using trabalhoFinal.Services;
 using System.Collections.Generic;
+using ApiWebDB.DTO;
+using TrabalhoFinal.Services;
+using ApiWebDB.Services.Exceptions;
+using ApiWebDB.BaseDados.Models2;
+using AutoMapper;
 
-namespace trabalhoFinal.Controllers
+
+namespace ApiWebDB.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        public readonly ProductService _service;
-        public readonly ILogger<ProductsController> _logger;
+        private readonly ProductService _productService;
+        private readonly IMapper _mapper;
 
-        public ProductsController(ProductService service, ILogger<ProductsController> logger)
+        public ProductsController(ProductService productService, IMapper mapper)
         {
-            _service = service;
-            _logger = logger;
-        }
-
-        [HttpGet("{id}")]
-        public ActionResult<TbProduct> GetById(int id)
-        {
-            try
-            {
-                var product = _service.getById(id);
-                return Ok(product);
-            }
-            //catch(NotFoundException e)
-            //{
-            //    return NotFound(e.Message);
-            //}
-            catch (System.Exception e)
-            {
-                return new ObjectResult(new { error = e.Message })
-                {
-                    StatusCode = 500
-                };
-            }
-        }
-        [HttpPost()]
-        public ActionResult<TbProduct> InsertProduct(TbProduct newProduct)
-        {
-            try
-            {
-                if (!_service.ValidateBarcode(newProduct.barcode))
-                {
-                    return BadRequest("Código de barras inválido.");
-                }
-                
-                var product = _service.InsertProduct(newProduct);
-                _service.LogStockChange(product.id, product.stock);
-                return CreatedAtAction(nameof(GetById), new { id = product.id }, product);
-            }
-            catch (System.Exception e)
-            {
-                _logger.LogError(e, "Error inserting product");
-                return StatusCode(500, new { error = e.Message });
-            }
+            _productService = productService;
+            _mapper = mapper;
         }
 
-        [HttpPut("{id}")]
-        public ActionResult<TbProduct> EditProduct(int id, TbProduct updatedProduct)
-        {
-            try
-            {
-                var product = _service.UpdateProduct(id, updatedProduct);
-                return Ok(product);
-            }
-            catch (System.Exception e)
-            {
-                _logger.LogError(e, "Error updating product");
-                return StatusCode(500, new { error = e.Message });
-            }
-        }
-        
         [HttpGet("barcode/{barcode}")]
         public ActionResult<TbProduct> GetByBarcode(string barcode)
         {
             try
             {
-                var product = _service.GetByBarcode(barcode);
-                return Ok(product);
+                var entity = _productService.GetByBarcode(barcode);
+
+                return Ok(_mapper.Map<ProductDTO>(entity));
             }
-            catch (System.Exception e)
+            catch (NotFoundException ex)
             {
-                _logger.LogError(e, "Error fetching product by barcode");
-                return StatusCode(500, new { error = e.Message });
+                return NotFound(ex.Message);
             }
         }
 
-        [HttpGet("search")]
-        public ActionResult<IEnumerable<TbProduct>> SearchProducts([FromQuery] string description)
+        [HttpGet("description/{description}")]
+        public ActionResult<IEnumerable<TbProduct>> GetByDescription(string description)
         {
             try
             {
-                var products = _service.SearchProducts(description);
-                return Ok(products);
+                var entity = _productService.GetByDescription(description);
+                return Ok(_mapper.Map<IEnumerable<ProductDTO>>(entity));
             }
-            catch (System.Exception e)
+            catch (NotFoundException ex)
             {
-                _logger.LogError(e, "Error searching products");
-                return StatusCode(500, new { error = e.Message });
+                return NotFound(ex.Message);
+            }
+        }
+
+        [HttpPost]
+        public ActionResult<TbProduct> Post([FromBody] ProductDTO dto)
+        {
+            var product = _productService.Insert(dto);
+            if (product == null)
+                return BadRequest("Invalid product data");
+            return Ok(_mapper.Map<ProductDTO>(product));
+        }
+
+        [HttpPut("{id}")]
+        public ActionResult<TbProduct> Put(int id, [FromBody] ProductDTO dto)
+        {
+            try
+            {
+                var product = _productService.Update(dto, id);
+                return NoContent();
+            }
+            catch (NotFoundException ex)
+            {
+                return NotFound(ex.Message);
             }
         }
 
         [HttpPatch("{id}/adjust-stock")]
-        public ActionResult AdjustStock(int id, [FromQuery] int quantity)
+        public ActionResult AdjustStock(int id, [FromBody] int quantity)
         {
             try
             {
-                _service.AdjustStock(id, quantity);
-                _service.LogStockChange(id, quantity);
+                _productService.AdjustStock(id, quantity);
                 return NoContent();
             }
-            catch (System.Exception e)
+            catch (NotFoundException ex)
             {
-                _logger.LogError(e, "Error adjusting stock");
-                return StatusCode(500, new { error = e.Message });
+                return NotFound(ex.Message);
             }
         }
     }
-
 }
-

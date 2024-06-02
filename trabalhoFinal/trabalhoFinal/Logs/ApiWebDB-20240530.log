@@ -1,0 +1,569 @@
+2024-05-30T12:45:32.4147019-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-05-30T12:45:32.4825961-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-05-30T12:45:32.4839046-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-05-30T12:45:32.4840678-03:00  [INF] Content root path: "/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final" (cc26f24e)
+2024-05-30T12:45:56.5644466-03:00  [INF] Application is shutting down... (90f52c38)
+2024-05-30T12:46:37.0082855-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-05-30T12:46:37.0744709-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-05-30T12:46:37.0757993-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-05-30T12:46:37.0759470-03:00  [INF] Content root path: "/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final" (cc26f24e)
+2024-05-30T12:49:07.3333017-03:00 0HN40O052P2CL:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/""" - null null (d509f86a)
+2024-05-30T12:49:07.4526011-03:00 0HN40O052P2CL:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/""" - 404 0 null 124.6804ms (74253ad3)
+2024-05-30T12:49:07.4639453-03:00 0HN40O052P2CL:00000001 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5113""""/", Response status code: 404 (e353595a)
+2024-05-30T12:49:07.5288067-03:00 0HN40O052P2CL:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/favicon.ico""" - null null (d509f86a)
+2024-05-30T12:49:07.5329886-03:00 0HN40O052P2CL:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/favicon.ico""" - 404 0 null 4.1263ms (74253ad3)
+2024-05-30T12:49:07.5344340-03:00 0HN40O052P2CL:00000002 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5113""""/favicon.ico", Response status code: 404 (e353595a)
+2024-05-30T12:49:10.8234336-03:00 0HN40O052P2CL:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/""" - null null (d509f86a)
+2024-05-30T12:49:10.8263338-03:00 0HN40O052P2CL:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/""" - 404 0 null 2.808ms (74253ad3)
+2024-05-30T12:49:10.8265376-03:00 0HN40O052P2CL:00000003 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5113""""/", Response status code: 404 (e353595a)
+2024-05-30T12:49:29.1774019-03:00 0HN40O052P2CL:00000004 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/""" - null null (d509f86a)
+2024-05-30T12:49:29.1780197-03:00 0HN40O052P2CL:00000004 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/""" - 404 0 null 0.6261ms (74253ad3)
+2024-05-30T12:49:29.1783047-03:00 0HN40O052P2CL:00000004 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5113""""/", Response status code: 404 (e353595a)
+2024-05-30T12:50:49.2376143-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-05-30T12:50:49.3418376-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-05-30T12:50:49.3606512-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-05-30T12:50:49.3626855-03:00  [INF] Content root path: "/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final" (cc26f24e)
+2024-05-30T12:50:49.8152968-03:00 0HN40O13IOEQ7:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger""" - null null (d509f86a)
+2024-05-30T12:50:49.9384008-03:00 0HN40O13IOEQ7:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger""" - 301 0 null 131.9889ms (74253ad3)
+2024-05-30T12:50:49.9435362-03:00 0HN40O13IOEQ7:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-05-30T12:50:50.1782718-03:00 0HN40O13IOEQ7:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 234.6277ms (74253ad3)
+2024-05-30T12:50:50.2328906-03:00 0HN40O13IOEQ7:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui.css""" - null null (d509f86a)
+2024-05-30T12:50:50.2495479-03:00 0HN40O13IOEQ8:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-bundle.js""" - null null (d509f86a)
+2024-05-30T12:50:50.2801545-03:00 0HN40O13IOEQ7:00000003 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2024-05-30T12:50:50.2801459-03:00 0HN40O13IOEQ8:00000001 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2024-05-30T12:50:50.2803586-03:00 0HN40O13IOEQ7:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui.css""" - 200 144929 "text/css" 47.4653ms (74253ad3)
+2024-05-30T12:50:50.2805245-03:00 0HN40O13IOEQ8:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-bundle.js""" - 200 1061536 "text/javascript" 30.9731ms (74253ad3)
+2024-05-30T12:50:50.2815172-03:00 0HN40O13IOEQ7:00000004 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-standalone-preset.js""" - null null (d509f86a)
+2024-05-30T12:50:50.2893098-03:00 0HN40O13IOEQ7:00000004 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2024-05-30T12:50:50.2965325-03:00 0HN40O13IOEQ7:00000004 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-standalone-preset.js""" - 200 312163 "text/javascript" 14.9692ms (74253ad3)
+2024-05-30T12:50:50.7268983-03:00 0HN40O13IOEQ7:00000005 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-05-30T12:50:50.7272234-03:00 0HN40O13IOEQ8:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - null null (d509f86a)
+2024-05-30T12:50:50.7299458-03:00 0HN40O13IOEQ8:00000002 [INF] Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"' (27b0a520)
+2024-05-30T12:50:50.7301977-03:00 0HN40O13IOEQ8:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - 200 665 "image/png" 2.9201ms (74253ad3)
+2024-05-30T12:50:51.0654442-03:00 0HN40O13IOEQ7:00000005 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 338.5265ms (74253ad3)
+2024-05-30T12:51:29.4475346-03:00 0HN40O13IOEQ8:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products""" - null null (d509f86a)
+2024-05-30T12:51:29.4618936-03:00 0HN40O13IOEQ8:00000003 [INF] Executing endpoint '"ApiWebDB.Controllers.ProductsController.Get (Trabalho Final)"' (500cc934)
+2024-05-30T12:51:29.4931418-03:00 0HN40O13IOEQ8:00000003 [INF] Route matched with "{action = \"Get\", controller = \"Products\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiWebDB.BaseDados.Models2.TbProduct]] Get()" on controller "ApiWebDB.Controllers.ProductsController" ("Trabalho Final"). (122b2fdf)
+2024-05-30T12:51:30.9591767-03:00 0HN40O13IOEQ8:00000003 [ERR] An error occurred using the connection to database '"TF_DB"' on server '"tcp://localhost:5432"'. (5fc3407c)
+2024-05-30T12:51:30.9986015-03:00 0HN40O13IOEQ8:00000003 [ERR] An exception occurred while iterating over the results of a query for context type '"Trabalho_Final.BaseDados.TfDbContext"'."
+""System.InvalidOperationException: An exception has been raised that is likely due to a transient failure.
+ ---> Npgsql.NpgsqlException (0x80004005): Failed to connect to 127.0.0.1:5432
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at Npgsql.Internal.NpgsqlConnector.Connect(NpgsqlTimeout timeout)
+   at Npgsql.Internal.NpgsqlConnector.Connect(NpgsqlTimeout timeout)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   --- End of inner exception stack trace ---
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()" (f5c7ac34)
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure.
+ ---> Npgsql.NpgsqlException (0x80004005): Failed to connect to 127.0.0.1:5432
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at Npgsql.Internal.NpgsqlConnector.Connect(NpgsqlTimeout timeout)
+   at Npgsql.Internal.NpgsqlConnector.Connect(NpgsqlTimeout timeout)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   --- End of inner exception stack trace ---
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at TrabalhoFinal.Services.ProductService.Get() in /home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/Services/ProductService.cs:line 23
+   at ApiWebDB.Controllers.ProductsController.Get() in /home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/Controllers/ProductsController.cs:line 26
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+2024-05-30T12:51:31.0062795-03:00 0HN40O13IOEQ8:00000003 [INF] Executed action "ApiWebDB.Controllers.ProductsController.Get (Trabalho Final)" in 1507.4094ms (afa2e885)
+2024-05-30T12:51:31.0073473-03:00 0HN40O13IOEQ8:00000003 [INF] Executed endpoint '"ApiWebDB.Controllers.ProductsController.Get (Trabalho Final)"' (99874f2b)
+2024-05-30T12:51:31.0293866-03:00 0HN40O13IOEQ8:00000003 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure.
+ ---> Npgsql.NpgsqlException (0x80004005): Failed to connect to 127.0.0.1:5432
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at Npgsql.Internal.NpgsqlConnector.Connect(NpgsqlTimeout timeout)
+   at Npgsql.Internal.NpgsqlConnector.Connect(NpgsqlTimeout timeout)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   --- End of inner exception stack trace ---
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at TrabalhoFinal.Services.ProductService.Get() in /home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/Services/ProductService.cs:line 23
+   at ApiWebDB.Controllers.ProductsController.Get() in /home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/Controllers/ProductsController.cs:line 26
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-30T12:51:31.0611669-03:00 0HN40O13IOEQ8:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products""" - 500 null "text/plain; charset=utf-8" 1613.5564ms (74253ad3)
+2024-05-30T15:12:01.7052470-03:00 0HN40O13IOEQA:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-05-30T15:12:01.7987331-03:00 0HN40O13IOEQA:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 104.7025ms (74253ad3)
+2024-05-30T15:12:02.1624885-03:00 0HN40O13IOEQA:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui.css""" - null null (d509f86a)
+2024-05-30T15:12:02.1654129-03:00 0HN40O13IOEQB:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-bundle.js""" - null null (d509f86a)
+2024-05-30T15:12:02.1912193-03:00 0HN40O13IOEQA:00000002 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2024-05-30T15:12:02.2006192-03:00 0HN40O13IOEQA:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui.css""" - 200 144929 "text/css" 37.9154ms (74253ad3)
+2024-05-30T15:12:02.2022353-03:00 0HN40O13IOEQB:00000001 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2024-05-30T15:12:02.2067991-03:00 0HN40O13IOEQB:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-bundle.js""" - 200 1061536 "text/javascript" 38.8092ms (74253ad3)
+2024-05-30T15:12:02.2159915-03:00 0HN40O13IOEQC:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-standalone-preset.js""" - null null (d509f86a)
+2024-05-30T15:12:02.2304668-03:00 0HN40O13IOEQC:00000001 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2024-05-30T15:12:02.2319896-03:00 0HN40O13IOEQC:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-standalone-preset.js""" - 200 312163 "text/javascript" 15.1409ms (74253ad3)
+2024-05-30T15:12:02.9269636-03:00 0HN40O13IOEQB:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - null null (d509f86a)
+2024-05-30T15:12:02.9294721-03:00 0HN40O13IOEQB:00000002 [INF] Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"' (27b0a520)
+2024-05-30T15:12:02.9296250-03:00 0HN40O13IOEQB:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - 200 665 "image/png" 2.6927ms (74253ad3)
+2024-05-30T15:12:03.8602060-03:00 0HN40O13IOEQB:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-05-30T15:12:04.2905450-03:00 0HN40O13IOEQB:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 413.867ms (74253ad3)
+2024-05-30T20:30:23.3939128-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-05-30T20:30:23.5817991-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-05-30T20:30:23.5887989-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-05-30T20:30:23.5890139-03:00  [INF] Content root path: "/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final" (cc26f24e)
+2024-05-30T20:48:49.4295635-03:00 0HN410C6ITEKO:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/""" - null null (d509f86a)
+2024-05-30T20:48:49.5014705-03:00 0HN410C6ITEKO:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/""" - 404 0 null 74.1551ms (74253ad3)
+2024-05-30T20:48:49.5044835-03:00 0HN410C6ITEKO:00000001 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5113""""/", Response status code: 404 (e353595a)
+2024-05-30T20:48:56.2477983-03:00 0HN410C6ITEKO:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-05-30T20:48:56.4152229-03:00 0HN410C6ITEKO:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 167.4626ms (74253ad3)
+2024-05-30T20:48:56.4677080-03:00 0HN410C6ITEKO:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui.css""" - null null (d509f86a)
+2024-05-30T20:48:56.4724845-03:00 0HN410C6ITEKQ:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-bundle.js""" - null null (d509f86a)
+2024-05-30T20:48:56.4728323-03:00 0HN410C6ITEKP:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-standalone-preset.js""" - null null (d509f86a)
+2024-05-30T20:48:56.5069747-03:00 0HN410C6ITEKO:00000003 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2024-05-30T20:48:56.5069747-03:00 0HN410C6ITEKP:00000001 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2024-05-30T20:48:56.5063651-03:00 0HN410C6ITEKQ:00000001 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2024-05-30T20:48:56.5124704-03:00 0HN410C6ITEKP:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-standalone-preset.js""" - 200 312163 "text/javascript" 39.5541ms (74253ad3)
+2024-05-30T20:48:56.5145336-03:00 0HN410C6ITEKQ:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-bundle.js""" - 200 1061536 "text/javascript" 42.0084ms (74253ad3)
+2024-05-30T20:48:56.5145336-03:00 0HN410C6ITEKO:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui.css""" - 200 144929 "text/css" 46.7389ms (74253ad3)
+2024-05-30T20:48:56.7220768-03:00 0HN410C6ITEKQ:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - null null (d509f86a)
+2024-05-30T20:48:56.7226529-03:00 0HN410C6ITEKQ:00000002 [INF] Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"' (27b0a520)
+2024-05-30T20:48:56.7228451-03:00 0HN410C6ITEKQ:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - 200 665 "image/png" 0.7659ms (74253ad3)
+2024-05-30T20:48:56.8193046-03:00 0HN410C6ITEKQ:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-05-30T20:48:56.9999302-03:00 0HN410C6ITEKQ:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 180.6217ms (74253ad3)
+2024-05-30T20:49:07.8143728-03:00 0HN410C6ITEKQ:00000004 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Promotions""" - null null (d509f86a)
+2024-05-30T20:49:07.8230422-03:00 0HN410C6ITEKQ:00000004 [INF] Executing endpoint '"ApiWebDB.Controllers.PromotionsController.Get (Trabalho Final)"' (500cc934)
+2024-05-30T20:49:07.8474496-03:00 0HN410C6ITEKQ:00000004 [INF] Route matched with "{action = \"Get\", controller = \"Promotions\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiWebDB.BaseDados.Models2.TbPromotion]] Get()" on controller "ApiWebDB.Controllers.PromotionsController" ("Trabalho Final"). (122b2fdf)
+2024-05-30T20:49:09.7216349-03:00 0HN410C6ITEKQ:00000004 [ERR] An error occurred using the connection to database '"TF_DB"' on server '"tcp://localhost:5432"'. (5fc3407c)
+2024-05-30T20:49:09.7662306-03:00 0HN410C6ITEKQ:00000004 [ERR] An exception occurred while iterating over the results of a query for context type '"Trabalho_Final.BaseDados.TfDbContext"'."
+""Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user \"postgres\"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user \"postgres\"
+    File: auth.c
+    Line: 335
+    Routine: auth_failed" (f5c7ac34)
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at TrabalhoFinal.Services.PromotionService.Get() in /home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/Services/PromotionService.cs:line 23
+   at ApiWebDB.Controllers.PromotionsController.Get() in /home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/Controllers/PromotionsController.cs:line 27
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 335
+    Routine: auth_failed
+2024-05-30T20:49:09.7762305-03:00 0HN410C6ITEKQ:00000004 [INF] Executed action "ApiWebDB.Controllers.PromotionsController.Get (Trabalho Final)" in 1920.3463ms (afa2e885)
+2024-05-30T20:49:09.7770294-03:00 0HN410C6ITEKQ:00000004 [INF] Executed endpoint '"ApiWebDB.Controllers.PromotionsController.Get (Trabalho Final)"' (99874f2b)
+2024-05-30T20:49:09.7933308-03:00 0HN410C6ITEKQ:00000004 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at TrabalhoFinal.Services.PromotionService.Get() in /home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/Services/PromotionService.cs:line 23
+   at ApiWebDB.Controllers.PromotionsController.Get() in /home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/Controllers/PromotionsController.cs:line 27
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 335
+    Routine: auth_failed
+2024-05-30T20:49:09.8214793-03:00 0HN410C6ITEKQ:00000004 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Promotions""" - 500 null "text/plain; charset=utf-8" 2007.0369ms (74253ad3)
+2024-05-30T20:49:30.0237180-03:00 0HN410C6ITEKQ:00000005 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Promotions""" - null null (d509f86a)
+2024-05-30T20:49:30.0295971-03:00 0HN410C6ITEKQ:00000005 [INF] Executing endpoint '"ApiWebDB.Controllers.PromotionsController.Get (Trabalho Final)"' (500cc934)
+2024-05-30T20:49:30.0300065-03:00 0HN410C6ITEKQ:00000005 [INF] Route matched with "{action = \"Get\", controller = \"Promotions\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiWebDB.BaseDados.Models2.TbPromotion]] Get()" on controller "ApiWebDB.Controllers.PromotionsController" ("Trabalho Final"). (122b2fdf)
+2024-05-30T20:49:30.0823310-03:00 0HN410C6ITEKQ:00000005 [ERR] An error occurred using the connection to database '"TF_DB"' on server '"tcp://localhost:5432"'. (5fc3407c)
+2024-05-30T20:49:30.0933510-03:00 0HN410C6ITEKQ:00000005 [ERR] An exception occurred while iterating over the results of a query for context type '"Trabalho_Final.BaseDados.TfDbContext"'."
+""Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user \"postgres\"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user \"postgres\"
+    File: auth.c
+    Line: 335
+    Routine: auth_failed" (f5c7ac34)
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at TrabalhoFinal.Services.PromotionService.Get() in /home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/Services/PromotionService.cs:line 23
+   at ApiWebDB.Controllers.PromotionsController.Get() in /home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/Controllers/PromotionsController.cs:line 27
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 335
+    Routine: auth_failed
+2024-05-30T20:49:30.0942866-03:00 0HN410C6ITEKQ:00000005 [INF] Executed action "ApiWebDB.Controllers.PromotionsController.Get (Trabalho Final)" in 64.1012ms (afa2e885)
+2024-05-30T20:49:30.0953007-03:00 0HN410C6ITEKQ:00000005 [INF] Executed endpoint '"ApiWebDB.Controllers.PromotionsController.Get (Trabalho Final)"' (99874f2b)
+2024-05-30T20:49:30.1045988-03:00 0HN410C6ITEKQ:00000005 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at TrabalhoFinal.Services.PromotionService.Get() in /home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/Services/PromotionService.cs:line 23
+   at ApiWebDB.Controllers.PromotionsController.Get() in /home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/Controllers/PromotionsController.cs:line 27
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 335
+    Routine: auth_failed
+2024-05-30T20:49:30.1215588-03:00 0HN410C6ITEKQ:00000005 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Promotions""" - 500 null "text/plain; charset=utf-8" 97.8192ms (74253ad3)
+2024-05-30T20:49:33.4613348-03:00  [INF] Application is shutting down... (90f52c38)
+2024-05-30T20:49:44.2870681-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-05-30T20:49:44.3610677-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-05-30T20:49:44.3625600-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-05-30T20:49:44.3626680-03:00  [INF] Content root path: "/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final" (cc26f24e)
+2024-05-30T20:49:50.6182471-03:00 0HN410CP22JFV:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-05-30T20:49:50.8681623-03:00 0HN410CP22JFV:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 252.5956ms (74253ad3)
+2024-05-30T20:49:51.1778994-03:00 0HN410CP22JFV:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-05-30T20:49:51.3610067-03:00 0HN410CP22JFV:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 187.1925ms (74253ad3)
+2024-05-30T20:49:55.9395551-03:00 0HN410CP22JFV:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products""" - null null (d509f86a)
+2024-05-30T20:49:55.9535556-03:00 0HN410CP22JFV:00000003 [INF] Executing endpoint '"ApiWebDB.Controllers.ProductsController.Get (Trabalho Final)"' (500cc934)
+2024-05-30T20:49:55.9782547-03:00 0HN410CP22JFV:00000003 [INF] Route matched with "{action = \"Get\", controller = \"Products\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiWebDB.BaseDados.Models2.TbProduct]] Get()" on controller "ApiWebDB.Controllers.ProductsController" ("Trabalho Final"). (122b2fdf)
+2024-05-30T20:49:57.5933752-03:00 0HN410CP22JFV:00000003 [ERR] An error occurred using the connection to database '"TF_DB"' on server '"tcp://localhost:5432"'. (5fc3407c)
+2024-05-30T20:49:57.6419520-03:00 0HN410CP22JFV:00000003 [ERR] An exception occurred while iterating over the results of a query for context type '"Trabalho_Final.BaseDados.TfDbContext"'."
+""Npgsql.PostgresException (0x80004005): 3D000: database \"TF_DB\" does not exist
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: FATAL
+    SqlState: 3D000
+    MessageText: database \"TF_DB\" does not exist
+    File: postinit.c
+    Line: 885
+    Routine: InitPostgres" (f5c7ac34)
+Npgsql.PostgresException (0x80004005): 3D000: database "TF_DB" does not exist
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: FATAL
+    SqlState: 3D000
+    MessageText: database "TF_DB" does not exist
+    File: postinit.c
+    Line: 885
+    Routine: InitPostgres
+2024-05-30T20:49:57.6507861-03:00 0HN410CP22JFV:00000003 [INF] Executed action "ApiWebDB.Controllers.ProductsController.Get (Trabalho Final)" in 1668.0976ms (afa2e885)
+2024-05-30T20:49:57.6515821-03:00 0HN410CP22JFV:00000003 [INF] Executed endpoint '"ApiWebDB.Controllers.ProductsController.Get (Trabalho Final)"' (99874f2b)
+2024-05-30T20:49:57.6714809-03:00 0HN410CP22JFV:00000003 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Npgsql.PostgresException (0x80004005): 3D000: database "TF_DB" does not exist
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at TrabalhoFinal.Services.ProductService.Get() in /home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/Services/ProductService.cs:line 23
+   at ApiWebDB.Controllers.ProductsController.Get() in /home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/Controllers/ProductsController.cs:line 26
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: FATAL
+    SqlState: 3D000
+    MessageText: database "TF_DB" does not exist
+    File: postinit.c
+    Line: 885
+    Routine: InitPostgres
+2024-05-30T20:49:57.7038782-03:00 0HN410CP22JFV:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products""" - 500 null "text/plain; charset=utf-8" 1764.3485ms (74253ad3)

@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace trabalhoFinal.BaseDados.Models;
+namespace ApiWebDB.BaseDados.Models2;
 
 /// <summary>
 /// Tabela de logs de alteração de estoque de produtos
 /// </summary>
 public partial class TbStockLog
 {
+    internal string Barcode;
+
     /// <summary>
     /// Identificador único da tabela
     /// </summary>

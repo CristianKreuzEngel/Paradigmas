@@ -1,0 +1,381 @@
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/appsettings.Development.json
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/appsettings.json
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Trabalho Final.exe
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Trabalho Final.deps.json
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Trabalho Final.runtimeconfig.json
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Trabalho Final.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Trabalho Final.pdb
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Microsoft.OpenApi.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/Trabalho Final.csproj.AssemblyReference.cache
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/Trabalho Final.GeneratedMSBuildEditorConfig.editorconfig
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/Trabalho Final.AssemblyInfoInputs.cache
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/Trabalho Final.AssemblyInfo.cs
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/Trabalho Final.csproj.CoreCompileInputs.cache
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/Trabalho Final.MvcApplicationPartsAssemblyInfo.cs
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/Trabalho Final.MvcApplicationPartsAssemblyInfo.cache
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/Trabalho Final.sourcelink.json
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/staticwebassets.build.json
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/staticwebassets.development.json
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/staticwebassets/msbuild.Trabalho Final.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/staticwebassets/msbuild.build.Trabalho Final.props
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Trabalho Final.props
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Trabalho Final.props
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/staticwebassets.pack.json
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/scopedcss/bundle/Trabalho Final.styles.css
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/Trabalho.F5A17250.Up2Date
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/Trabalho Final.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/refint/Trabalho Final.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/Trabalho Final.pdb
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/Trabalho Final.genruntimeconfig.cache
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/ref/Trabalho Final.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Humanizer.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Mono.TextTemplating.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Npgsql.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Serilog.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Serilog.Extensions.Logging.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Serilog.Extensions.Logging.File.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Serilog.Formatting.Compact.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Serilog.Sinks.Async.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Serilog.Sinks.File.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Serilog.Sinks.RollingFile.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/System.CodeDom.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/System.Composition.AttributedModel.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/System.Composition.Convention.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/System.Composition.Hosting.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/System.Composition.Runtime.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/System.Composition.TypedParts.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/System.Text.Encodings.Web.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/System.Text.Json.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/bin/Debug/net8.0/Trabalho Final.xml
+C:/Aula Juliano/Aula-Juliano/Trabalho Final/obj/Debug/net8.0/Trabalho Final.xml
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/appsettings.Development.json
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/appsettings.json
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Trabalho Final
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Trabalho Final.deps.json
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Trabalho Final.runtimeconfig.json
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Trabalho Final.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Trabalho Final.pdb
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Trabalho Final.xml
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Humanizer.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Mono.TextTemplating.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Npgsql.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Serilog.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Serilog.Extensions.Logging.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Serilog.Extensions.Logging.File.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Serilog.Formatting.Compact.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Serilog.Sinks.Async.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Serilog.Sinks.File.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Serilog.Sinks.RollingFile.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/System.CodeDom.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/System.Composition.AttributedModel.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/System.Composition.Convention.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/System.Composition.Hosting.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/System.Composition.Runtime.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/System.Composition.TypedParts.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/System.Text.Encodings.Web.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/System.Text.Json.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/Trabalho Final.csproj.AssemblyReference.cache
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/Trabalho Final.GeneratedMSBuildEditorConfig.editorconfig
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/Trabalho Final.AssemblyInfoInputs.cache
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/Trabalho Final.AssemblyInfo.cs
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/Trabalho Final.csproj.CoreCompileInputs.cache
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/Trabalho Final.MvcApplicationPartsAssemblyInfo.cs
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/Trabalho Final.MvcApplicationPartsAssemblyInfo.cache
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/staticwebassets.build.json
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/staticwebassets.development.json
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/staticwebassets/msbuild.Trabalho Final.Microsoft.AspNetCore.StaticWebAssets.props
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/staticwebassets/msbuild.build.Trabalho Final.props
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Trabalho Final.props
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Trabalho Final.props
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/staticwebassets.pack.json
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/scopedcss/bundle/Trabalho Final.styles.css
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/Trabalho.F5A17250.Up2Date
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/Trabalho Final.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/refint/Trabalho Final.dll
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/Trabalho Final.xml
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/Trabalho Final.pdb
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/Trabalho Final.genruntimeconfig.cache
+/home/engel/repositorios/Trabalho-Final-Paradigmas-main/Trabalho Final/obj/Debug/net8.0/ref/Trabalho Final.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/Trabalho Final.csproj.AssemblyReference.cache
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/Trabalho Final.GeneratedMSBuildEditorConfig.editorconfig
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/Trabalho Final.AssemblyInfoInputs.cache
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/Trabalho Final.AssemblyInfo.cs
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/Trabalho Final.csproj.CoreCompileInputs.cache
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/Trabalho Final.MvcApplicationPartsAssemblyInfo.cs
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/Trabalho Final.MvcApplicationPartsAssemblyInfo.cache
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/Trabalho Final.sourcelink.json
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/appsettings.Development.json
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/appsettings.json
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Trabalho Final
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Trabalho Final.deps.json
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Trabalho Final.runtimeconfig.json
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Trabalho Final.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Trabalho Final.pdb
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Trabalho Final.xml
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/AutoMapper.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Humanizer.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Mono.TextTemplating.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Npgsql.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Serilog.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Serilog.Extensions.Logging.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Serilog.Extensions.Logging.File.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Serilog.Formatting.Compact.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Serilog.Sinks.Async.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Serilog.Sinks.File.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Serilog.Sinks.RollingFile.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/System.CodeDom.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/System.Composition.AttributedModel.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/System.Composition.Convention.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/System.Composition.Hosting.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/System.Composition.Runtime.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/System.Composition.TypedParts.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/System.Text.Encodings.Web.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/System.Text.Json.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/staticwebassets.build.json
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/staticwebassets.development.json
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/staticwebassets/msbuild.Trabalho Final.Microsoft.AspNetCore.StaticWebAssets.props
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/staticwebassets/msbuild.build.Trabalho Final.props
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Trabalho Final.props
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Trabalho Final.props
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/staticwebassets.pack.json
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/scopedcss/bundle/Trabalho Final.styles.css
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/Trabalho.F5A17250.Up2Date
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/Trabalho Final.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/refint/Trabalho Final.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/Trabalho Final.xml
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/Trabalho Final.pdb
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/Trabalho Final.genruntimeconfig.cache
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/Debug/net8.0/ref/Trabalho Final.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll

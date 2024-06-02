@@ -1,0 +1,692 @@
+2024-06-02T08:51:15.2705334-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-02T08:51:15.3298751-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-02T08:51:15.3311849-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-02T08:51:15.3313265-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-02T08:51:38.6565448-03:00 0HN42V9E7JH25:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-02T08:51:38.8525138-03:00 0HN42V9E7JH25:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 197.9347ms (74253ad3)
+2024-06-02T08:51:39.0982454-03:00 0HN42V9E7JH25:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - null null (d509f86a)
+2024-06-02T08:51:39.1345735-03:00 0HN42V9E7JH25:00000002 [INF] Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"' (27b0a520)
+2024-06-02T08:51:39.1358436-03:00 0HN42V9E7JH25:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - 200 665 "image/png" 37.4625ms (74253ad3)
+2024-06-02T08:51:39.1594403-03:00 0HN42V9E7JH26:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-02T08:51:39.4074635-03:00 0HN42V9E7JH26:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 248.03ms (74253ad3)
+2024-06-02T08:51:50.2968870-03:00 0HN42V9E7JH26:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products""" - null null (d509f86a)
+2024-06-02T08:51:50.3070802-03:00 0HN42V9E7JH26:00000002 [INF] Executing endpoint '"ApiWebDB.Controllers.ProductsController.Get (Trabalho Final)"' (500cc934)
+2024-06-02T08:51:50.3281735-03:00 0HN42V9E7JH26:00000002 [INF] Route matched with "{action = \"Get\", controller = \"Products\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiWebDB.BaseDados.Models2.TbProduct]] Get()" on controller "ApiWebDB.Controllers.ProductsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T08:51:52.0044959-03:00 0HN42V9E7JH26:00000002 [INF] Executed DbCommand ("26"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t" (0723d8ff)
+2024-06-02T08:51:52.1482734-03:00 0HN42V9E7JH26:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[ApiWebDB.BaseDados.Models2.TbProduct, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2024-06-02T08:51:52.1864893-03:00 0HN42V9E7JH26:00000002 [INF] Executed action "ApiWebDB.Controllers.ProductsController.Get (Trabalho Final)" in 1853.2451ms (afa2e885)
+2024-06-02T08:51:52.1866079-03:00 0HN42V9E7JH26:00000002 [INF] Executed endpoint '"ApiWebDB.Controllers.ProductsController.Get (Trabalho Final)"' (99874f2b)
+2024-06-02T08:51:52.1976363-03:00 0HN42V9E7JH26:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products""" - 200 null "application/json; charset=utf-8" 1900.7489ms (74253ad3)
+2024-06-02T08:57:12.2908103-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-02T08:57:23.0314259-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-02T08:57:23.0867478-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-02T08:57:23.0889744-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-02T08:57:23.0891031-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-02T08:57:38.0542174-03:00 0HN42VCPCGD1F:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-02T08:57:38.2436743-03:00 0HN42VCPCGD1F:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 191.4228ms (74253ad3)
+2024-06-02T08:57:38.4382052-03:00 0HN42VCPCGD1F:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-02T08:57:38.6033517-03:00 0HN42VCPCGD1F:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 165.1172ms (74253ad3)
+2024-06-02T08:57:50.5847172-03:00 0HN42VCPCGD1F:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products""" - null null (d509f86a)
+2024-06-02T08:57:50.5976326-03:00 0HN42VCPCGD1F:00000003 [INF] Executing endpoint '"ApiWebDB.Controllers.ProductsController.Get (Trabalho Final)"' (500cc934)
+2024-06-02T08:57:50.6178002-03:00 0HN42VCPCGD1F:00000003 [INF] Route matched with "{action = \"Get\", controller = \"Products\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.BaseDados.Models2.TbProduct] Get()" on controller "ApiWebDB.Controllers.ProductsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T08:57:52.2566220-03:00 0HN42VCPCGD1F:00000003 [INF] Executed DbCommand ("24"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t" (0723d8ff)
+2024-06-02T08:57:52.3999874-03:00 0HN42VCPCGD1F:00000003 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[ApiWebDB.BaseDados.Models2.TbProduct, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2024-06-02T08:57:52.4380471-03:00 0HN42VCPCGD1F:00000003 [INF] Executed action "ApiWebDB.Controllers.ProductsController.Get (Trabalho Final)" in 1815.9701ms (afa2e885)
+2024-06-02T08:57:52.4381627-03:00 0HN42VCPCGD1F:00000003 [INF] Executed endpoint '"ApiWebDB.Controllers.ProductsController.Get (Trabalho Final)"' (99874f2b)
+2024-06-02T08:57:52.4493976-03:00 0HN42VCPCGD1F:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products""" - 200 null "application/json; charset=utf-8" 1864.6855ms (74253ad3)
+2024-06-02T09:01:18.9378747-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-02T09:01:27.6644823-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-02T09:01:27.7147420-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-02T09:01:27.7159248-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-02T09:01:27.7160288-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-02T09:01:33.1725608-03:00 0HN42VEVEQA8V:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products""" - null null (d509f86a)
+2024-06-02T09:01:33.2329154-03:00 0HN42VEVEQA8V:00000001 [INF] Executing endpoint '"ApiWebDB.Controllers.ProductsController.Get (Trabalho Final)"' (500cc934)
+2024-06-02T09:01:33.2513859-03:00 0HN42VEVEQA8V:00000001 [INF] Route matched with "{action = \"Get\", controller = \"Products\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.BaseDados.Models2.TbProduct] Get()" on controller "ApiWebDB.Controllers.ProductsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T09:01:34.8367321-03:00 0HN42VEVEQA8V:00000001 [INF] Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t" (0723d8ff)
+2024-06-02T09:01:35.0002917-03:00 0HN42VEVEQA8V:00000001 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[ApiWebDB.BaseDados.Models2.TbProduct, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2024-06-02T09:01:35.1193534-03:00 0HN42VEVEQA8V:00000001 [INF] Executed action "ApiWebDB.Controllers.ProductsController.Get (Trabalho Final)" in 1863.2598ms (afa2e885)
+2024-06-02T09:01:35.1195120-03:00 0HN42VEVEQA8V:00000001 [INF] Executed endpoint '"ApiWebDB.Controllers.ProductsController.Get (Trabalho Final)"' (99874f2b)
+2024-06-02T09:01:35.1332193-03:00 0HN42VEVEQA8V:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products""" - 200 null "application/json; charset=utf-8" 1962.4852ms (74253ad3)
+2024-06-02T09:04:37.5094150-03:00 0HN42VEVEQA90:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products/barcode/1234567890123""" - null null (d509f86a)
+2024-06-02T09:04:37.5153025-03:00 0HN42VEVEQA90:00000001 [INF] Executing endpoint '"ApiWebDB.Controllers.ProductsController.GetByBarcode (Trabalho Final)"' (500cc934)
+2024-06-02T09:04:37.5299333-03:00 0HN42VEVEQA90:00000001 [INF] Route matched with "{action = \"GetByBarcode\", controller = \"Products\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.BaseDados.Models2.TbProduct] GetByBarcode(System.String)" on controller "ApiWebDB.Controllers.ProductsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T09:04:37.7048955-03:00 0HN42VEVEQA90:00000001 [INF] Executed DbCommand ("12"ms) [Parameters=["@__barcode_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t
+WHERE t.barcode = @__barcode_0
+LIMIT 1" (0723d8ff)
+2024-06-02T09:04:37.7060425-03:00 0HN42VEVEQA90:00000001 [INF] Executing "OkObjectResult", writing value of type '"ApiWebDB.BaseDados.Models2.TbProduct"'. (605b4265)
+2024-06-02T09:04:37.7067756-03:00 0HN42VEVEQA90:00000001 [INF] Executed action "ApiWebDB.Controllers.ProductsController.GetByBarcode (Trabalho Final)" in 176.6935ms (afa2e885)
+2024-06-02T09:04:37.7068810-03:00 0HN42VEVEQA90:00000001 [INF] Executed endpoint '"ApiWebDB.Controllers.ProductsController.GetByBarcode (Trabalho Final)"' (99874f2b)
+2024-06-02T09:04:37.7074691-03:00 0HN42VEVEQA90:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products/barcode/1234567890123""" - 200 null "application/json; charset=utf-8" 198.0694ms (74253ad3)
+2024-06-02T09:07:48.6527485-03:00 0HN42VEVEQA91:00000001 [INF] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5113""""/api/Products/2""" - "application/json" 19 (d509f86a)
+2024-06-02T09:07:48.6597005-03:00 0HN42VEVEQA91:00000001 [INF] Executing endpoint '"ApiWebDB.Controllers.ProductsController.Put (Trabalho Final)"' (500cc934)
+2024-06-02T09:07:48.6627974-03:00 0HN42VEVEQA91:00000001 [INF] Route matched with "{action = \"Put\", controller = \"Products\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.BaseDados.Models2.TbProduct] Put(Int32, ApiWebDB.DTO.ProductDTO)" on controller "ApiWebDB.Controllers.ProductsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T09:07:48.6984469-03:00 0HN42VEVEQA91:00000001 [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. (605b4265)
+2024-06-02T09:07:48.7311365-03:00 0HN42VEVEQA91:00000001 [INF] Executed action "ApiWebDB.Controllers.ProductsController.Put (Trabalho Final)" in 68.2166ms (afa2e885)
+2024-06-02T09:07:48.7312923-03:00 0HN42VEVEQA91:00000001 [INF] Executed endpoint '"ApiWebDB.Controllers.ProductsController.Put (Trabalho Final)"' (99874f2b)
+2024-06-02T09:07:48.7314717-03:00 0HN42VEVEQA91:00000001 [INF] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5113""""/api/Products/2""" - 400 null "application/problem+json; charset=utf-8" 78.6894ms (74253ad3)
+2024-06-02T09:08:33.6134932-03:00 0HN42VEVEQA91:00000002 [INF] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5113""""/api/Products/2/adjust-stock""" - "application/json" 3 (d509f86a)
+2024-06-02T09:08:33.6138018-03:00 0HN42VEVEQA91:00000002 [INF] Executing endpoint '"ApiWebDB.Controllers.ProductsController.AdjustStock (Trabalho Final)"' (500cc934)
+2024-06-02T09:08:33.6168229-03:00 0HN42VEVEQA91:00000002 [INF] Route matched with "{action = \"AdjustStock\", controller = \"Products\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult AdjustStock(Int32, Int32)" on controller "ApiWebDB.Controllers.ProductsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T09:08:33.9869549-03:00 0HN42VEVEQA91:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t
+WHERE t.id = @__p_0
+LIMIT 1" (0723d8ff)
+2024-06-02T09:08:34.0910898-03:00 0HN42VEVEQA91:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?', @p1='?', @p2='?' (DbType = Decimal), @p3='?', @p4='?' (DbType = Decimal), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""UPDATE tb_products SET barcode = @p0, barcodetype = @p1, costprice = @p2, description = @p3, price = @p4, stock = @p5
+WHERE id = @p6;" (0723d8ff)
+2024-06-02T09:08:34.2076021-03:00 0HN42VEVEQA91:00000002 [INF] Executed DbCommand ("8"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tb_stock_logs (createdat, productid, qty)
+VALUES (@p0, @p1, @p2)
+RETURNING id;" (0723d8ff)
+2024-06-02T09:08:34.2359174-03:00 0HN42VEVEQA91:00000002 [INF] Executing StatusCodeResult, setting HTTP status code 204 (3fe03d2f)
+2024-06-02T09:08:34.2360896-03:00 0HN42VEVEQA91:00000002 [INF] Executed action "ApiWebDB.Controllers.ProductsController.AdjustStock (Trabalho Final)" in 619.1682ms (afa2e885)
+2024-06-02T09:08:34.2361340-03:00 0HN42VEVEQA91:00000002 [INF] Executed endpoint '"ApiWebDB.Controllers.ProductsController.AdjustStock (Trabalho Final)"' (99874f2b)
+2024-06-02T09:08:34.2363948-03:00 0HN42VEVEQA91:00000002 [INF] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5113""""/api/Products/2/adjust-stock""" - 204 null null 622.8586ms (74253ad3)
+2024-06-02T09:10:27.9525584-03:00 0HN42VEVEQA91:00000003 [INF] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5113""""/api/Products/2/adjust-stock""" - "application/json" 4 (d509f86a)
+2024-06-02T09:10:27.9528211-03:00 0HN42VEVEQA91:00000003 [INF] Executing endpoint '"ApiWebDB.Controllers.ProductsController.AdjustStock (Trabalho Final)"' (500cc934)
+2024-06-02T09:10:27.9537272-03:00 0HN42VEVEQA91:00000003 [INF] Route matched with "{action = \"AdjustStock\", controller = \"Products\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult AdjustStock(Int32, Int32)" on controller "ApiWebDB.Controllers.ProductsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T09:10:27.9611151-03:00 0HN42VEVEQA91:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t
+WHERE t.id = @__p_0
+LIMIT 1" (0723d8ff)
+2024-06-02T09:10:27.9647135-03:00 0HN42VEVEQA91:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?', @p1='?', @p2='?' (DbType = Decimal), @p3='?', @p4='?' (DbType = Decimal), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""UPDATE tb_products SET barcode = @p0, barcodetype = @p1, costprice = @p2, description = @p3, price = @p4, stock = @p5
+WHERE id = @p6;" (0723d8ff)
+2024-06-02T09:10:27.9725796-03:00 0HN42VEVEQA91:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tb_stock_logs (createdat, productid, qty)
+VALUES (@p0, @p1, @p2)
+RETURNING id;" (0723d8ff)
+2024-06-02T09:10:27.9734929-03:00 0HN42VEVEQA91:00000003 [INF] Executing StatusCodeResult, setting HTTP status code 204 (3fe03d2f)
+2024-06-02T09:10:27.9735866-03:00 0HN42VEVEQA91:00000003 [INF] Executed action "ApiWebDB.Controllers.ProductsController.AdjustStock (Trabalho Final)" in 19.7815ms (afa2e885)
+2024-06-02T09:10:27.9738181-03:00 0HN42VEVEQA91:00000003 [INF] Executed endpoint '"ApiWebDB.Controllers.ProductsController.AdjustStock (Trabalho Final)"' (99874f2b)
+2024-06-02T09:10:27.9739902-03:00 0HN42VEVEQA91:00000003 [INF] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5113""""/api/Products/2/adjust-stock""" - 204 null null 21.4501ms (74253ad3)
+2024-06-02T09:13:07.9897034-03:00 0HN42VEVEQA92:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-02T09:13:08.0678821-03:00 0HN42VEVEQA92:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 78.1326ms (74253ad3)
+2024-06-02T09:13:08.3362473-03:00 0HN42VEVEQA92:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-02T09:13:08.4721556-03:00 0HN42VEVEQA92:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 135.8626ms (74253ad3)
+2024-06-02T09:14:20.0300393-03:00 0HN42VEVEQA92:00000003 [INF] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5113""""/api/Products/2""" - "application/json" 149 (d509f86a)
+2024-06-02T09:14:20.0303122-03:00 0HN42VEVEQA92:00000003 [INF] Executing endpoint '"ApiWebDB.Controllers.ProductsController.Put (Trabalho Final)"' (500cc934)
+2024-06-02T09:14:20.0304497-03:00 0HN42VEVEQA92:00000003 [INF] Route matched with "{action = \"Put\", controller = \"Products\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.BaseDados.Models2.TbProduct] Put(Int32, ApiWebDB.DTO.ProductDTO)" on controller "ApiWebDB.Controllers.ProductsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T09:14:20.2884225-03:00 0HN42VEVEQA92:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t
+WHERE t.id = @__p_0
+LIMIT 1" (0723d8ff)
+2024-06-02T09:14:20.2922440-03:00 0HN42VEVEQA92:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?', @p1='?', @p2='?' (DbType = Decimal), @p3='?', @p4='?' (DbType = Decimal), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""UPDATE tb_products SET barcode = @p0, barcodetype = @p1, costprice = @p2, description = @p3, price = @p4, stock = @p5
+WHERE id = @p6;" (0723d8ff)
+2024-06-02T09:14:20.2931577-03:00 0HN42VEVEQA92:00000003 [INF] Executing "OkObjectResult", writing value of type '"ApiWebDB.BaseDados.Models2.TbProduct"'. (605b4265)
+2024-06-02T09:14:20.2938842-03:00 0HN42VEVEQA92:00000003 [INF] Executed action "ApiWebDB.Controllers.ProductsController.Put (Trabalho Final)" in 263.3397ms (afa2e885)
+2024-06-02T09:14:20.2942440-03:00 0HN42VEVEQA92:00000003 [INF] Executed endpoint '"ApiWebDB.Controllers.ProductsController.Put (Trabalho Final)"' (99874f2b)
+2024-06-02T09:14:20.2948512-03:00 0HN42VEVEQA92:00000003 [INF] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5113""""/api/Products/2""" - 200 null "application/json; charset=utf-8" 264.7983ms (74253ad3)
+2024-06-02T09:23:23.7473981-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-02T09:23:36.0012736-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-02T09:23:36.0799326-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-02T09:23:36.0821440-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-02T09:23:36.0823638-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-02T09:23:53.4792663-03:00 0HN42VRESR2J7:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-02T09:23:53.7154893-03:00 0HN42VRESR2J7:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 239.4151ms (74253ad3)
+2024-06-02T09:23:53.9506304-03:00 0HN42VRESR2J7:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-02T09:23:54.1684983-03:00 0HN42VRESR2J7:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 217.7506ms (74253ad3)
+2024-06-02T09:24:32.7355536-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-02T09:24:45.9200116-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-02T09:24:45.9956652-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-02T09:24:45.9970920-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-02T09:24:45.9972155-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-02T09:25:16.9921464-03:00 0HN42VS7PAGT8:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-02T09:25:17.2496164-03:00 0HN42VS7PAGT8:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 257.8989ms (74253ad3)
+2024-06-02T09:25:17.5075549-03:00 0HN42VS7PAGT9:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-02T09:25:17.7105531-03:00 0HN42VS7PAGT9:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 202.8084ms (74253ad3)
+2024-06-02T09:25:36.9215329-03:00 0HN42VS7PAGT9:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-02T09:25:36.9237147-03:00 0HN42VS7PAGT9:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 2.1996ms (74253ad3)
+2024-06-02T09:25:37.1321607-03:00 0HN42VS7PAGT9:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-02T09:25:37.1803608-03:00 0HN42VS7PAGT9:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 48.1649ms (74253ad3)
+2024-06-02T09:25:40.4659569-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-02T09:25:50.3267357-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-02T09:25:50.3959077-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-02T09:25:50.3997908-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-02T09:25:50.3999471-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-02T09:25:52.7091981-03:00 0HN42VSIDUUMJ:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-02T09:25:52.9615187-03:00 0HN42VSIDUUMJ:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 255.5891ms (74253ad3)
+2024-06-02T09:25:53.2101445-03:00 0HN42VSIDUUMJ:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-02T09:25:53.4451432-03:00 0HN42VSIDUUMJ:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 234.9656ms (74253ad3)
+2024-06-02T09:27:50.2874782-03:00 0HN42VSIDUUMK:00000001 [INF] Request starting "HTTP/1.1" "PUT" "http"://"localhost:5113""""/api/Promotions/8""" - "application/json" 145 (d509f86a)
+2024-06-02T09:27:50.3035955-03:00 0HN42VSIDUUMK:00000001 [INF] Executing endpoint '"ApiWebDB.Controllers.PromotionsController.Put (Trabalho Final)"' (500cc934)
+2024-06-02T09:27:50.3352576-03:00 0HN42VSIDUUMK:00000001 [INF] Route matched with "{action = \"Put\", controller = \"Promotions\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.BaseDados.Models2.TbPromotion] Put(Int32, ApiWebDB.DTO.PromotionDTO)" on controller "ApiWebDB.Controllers.PromotionsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T09:27:52.5203471-03:00 0HN42VSIDUUMK:00000001 [INF] Executed DbCommand ("81"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.enddate, t.productid, t.promotiontype, t.startdate, t.value
+FROM tb_promotions AS t
+WHERE t.id = @__p_0
+LIMIT 1" (0723d8ff)
+2024-06-02T09:27:52.7869119-03:00 0HN42VSIDUUMK:00000001 [INF] Executed DbCommand ("8"ms) [Parameters=["@p5='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""UPDATE tb_promotions SET enddate = @p0, productid = @p1, promotiontype = @p2, startdate = @p3, value = @p4
+WHERE id = @p5;" (0723d8ff)
+2024-06-02T09:27:52.8081671-03:00 0HN42VSIDUUMK:00000001 [INF] Executing "OkObjectResult", writing value of type '"ApiWebDB.BaseDados.Models2.TbPromotion"'. (605b4265)
+2024-06-02T09:27:52.8460315-03:00 0HN42VSIDUUMK:00000001 [INF] Executed action "ApiWebDB.Controllers.PromotionsController.Put (Trabalho Final)" in 2502.8806ms (afa2e885)
+2024-06-02T09:27:52.8467386-03:00 0HN42VSIDUUMK:00000001 [INF] Executed endpoint '"ApiWebDB.Controllers.PromotionsController.Put (Trabalho Final)"' (99874f2b)
+2024-06-02T09:27:52.8602616-03:00 0HN42VSIDUUMK:00000001 [INF] Request finished "HTTP/1.1" "PUT" "http"://"localhost:5113""""/api/Promotions/8""" - 200 null "application/json; charset=utf-8" 2572.7924ms (74253ad3)
+2024-06-02T09:36:42.6185759-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-02T09:39:27.0474285-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-02T09:39:27.1347874-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-02T09:39:27.1513823-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-02T09:39:27.1515766-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-02T09:39:33.3177784-03:00 0HN43046VTG25:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-02T09:39:33.5517424-03:00 0HN43046VTG25:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 236.3355ms (74253ad3)
+2024-06-02T09:39:33.7991865-03:00 0HN43046VTG25:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-02T09:39:33.9810538-03:00 0HN43046VTG25:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 181.8044ms (74253ad3)
+2024-06-02T09:44:15.6496879-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-02T09:44:28.4565861-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-02T09:44:28.5162854-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-02T09:44:28.5177845-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-02T09:44:28.5179285-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-02T09:44:40.0839128-03:00 0HN43072DE2RT:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-02T09:44:40.2949534-03:00 0HN43072DE2RT:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 213.0536ms (74253ad3)
+2024-06-02T09:44:40.4468427-03:00 0HN43072DE2RT:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - null null (d509f86a)
+2024-06-02T09:44:40.4782335-03:00 0HN43072DE2RT:00000002 [INF] Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"' (27b0a520)
+2024-06-02T09:44:40.4790617-03:00 0HN43072DE2RT:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - 499 665 "image/png" 32.2418ms (74253ad3)
+2024-06-02T09:44:40.5379138-03:00 0HN43072DE2RU:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-02T09:44:40.7150406-03:00 0HN43072DE2RU:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 177.0671ms (74253ad3)
+2024-06-02T09:45:27.7827272-03:00 0HN43072DE2RU:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Sales/report""?code=123&startDate=2024-05-01%2012%3A27%3A00&endDate=2024-06-01%2012%3A27%3A00" - null null (d509f86a)
+2024-06-02T09:45:27.7964700-03:00 0HN43072DE2RU:00000002 [INF] Executing endpoint '"ApiWebDB.Controllers.SalesController.GetSalesReportByPeriod (Trabalho Final)"' (500cc934)
+2024-06-02T09:45:27.8296196-03:00 0HN43072DE2RU:00000002 [INF] Route matched with "{action = \"GetSalesReportByPeriod\", controller = \"Sales\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TrabalhoFinal.Services.SaleReportDTO]] GetSalesReportByPeriod(System.String, System.DateTime, System.DateTime)" on controller "ApiWebDB.Controllers.SalesController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T09:45:30.0719983-03:00 0HN43072DE2RU:00000002 [INF] Executed DbCommand ("85"ms) [Parameters=["@__code_0='?', @__startDate_1='?' (DbType = DateTime2), @__endDate_2='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.code, t.createat, t.discount, t.price, t.productid, t.qty, t0.id, t0.barcode, t0.barcodetype, t0.costprice, t0.description, t0.price, t0.stock
+FROM tb_sales AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.code = @__code_0 AND t.createat >= @__startDate_1 AND t.createat <= @__endDate_2
+ORDER BY t.createat DESC" (0723d8ff)
+2024-06-02T09:45:30.2551810-03:00 0HN43072DE2RU:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[TrabalhoFinal.Services.SaleReportDTO, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2024-06-02T09:45:30.2924760-03:00 0HN43072DE2RU:00000002 [INF] Executed action "ApiWebDB.Controllers.SalesController.GetSalesReportByPeriod (Trabalho Final)" in 2457.5285ms (afa2e885)
+2024-06-02T09:45:30.2926661-03:00 0HN43072DE2RU:00000002 [INF] Executed endpoint '"ApiWebDB.Controllers.SalesController.GetSalesReportByPeriod (Trabalho Final)"' (99874f2b)
+2024-06-02T09:45:30.3071176-03:00 0HN43072DE2RU:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Sales/report""?code=123&startDate=2024-05-01%2012%3A27%3A00&endDate=2024-06-01%2012%3A27%3A00" - 200 null "application/json; charset=utf-8" 2524.4292ms (74253ad3)
+2024-06-02T09:56:55.5299613-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-02T09:57:06.5542313-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-02T09:57:06.6399151-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-02T09:57:06.6414500-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-02T09:57:06.6416434-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-02T10:09:37.3369468-03:00 0HN430L0K2J15:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-02T10:09:37.6594275-03:00 0HN430L0K2J15:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 325.2736ms (74253ad3)
+2024-06-02T10:09:37.9352476-03:00 0HN430L0K2J15:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - null null (d509f86a)
+2024-06-02T10:09:38.0152470-03:00 0HN430L0K2J15:00000002 [INF] Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"' (27b0a520)
+2024-06-02T10:09:38.0165095-03:00 0HN430L0K2J15:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - 200 665 "image/png" 81.1397ms (74253ad3)
+2024-06-02T10:09:38.0559861-03:00 0HN430L0K2J16:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-02T10:09:38.3526805-03:00 0HN430L0K2J16:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 296.644ms (74253ad3)
+2024-06-02T10:15:30.5086211-03:00 0HN430L0K2J17:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/StockLogs/product/2""" - null null (d509f86a)
+2024-06-02T10:15:30.5681123-03:00 0HN430L0K2J17:00000001 [INF] Executing endpoint '"ApiWebDB.Controllers.StockLogsController.GetLogsByProduct (Trabalho Final)"' (500cc934)
+2024-06-02T10:15:30.6608957-03:00 0HN430L0K2J17:00000001 [INF] Route matched with "{action = \"GetLogsByProduct\", controller = \"StockLogs\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiWebDB.DTO.StockLogDTO]] GetLogsByProduct(Int32)" on controller "ApiWebDB.Controllers.StockLogsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T10:15:35.8277086-03:00 0HN430L0K2J17:00000001 [INF] Executed DbCommand ("166"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id AS \"Id\", t.productid AS \"Productid\", t0.barcode AS \"Barcode\", t0.description AS \"Description\", t.qty AS \"Qty\", t.createdat AS \"Createdat\"
+FROM tb_stock_logs AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.productid = @__productId_0
+ORDER BY t.createdat DESC" (0723d8ff)
+2024-06-02T10:15:35.9511173-03:00 0HN430L0K2J17:00000001 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[ApiWebDB.DTO.StockLogDTO, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2024-06-02T10:15:36.0810090-03:00 0HN430L0K2J17:00000001 [INF] Executed action "ApiWebDB.Controllers.StockLogsController.GetLogsByProduct (Trabalho Final)" in 5404.0484ms (afa2e885)
+2024-06-02T10:15:36.0820131-03:00 0HN430L0K2J17:00000001 [INF] Executed endpoint '"ApiWebDB.Controllers.StockLogsController.GetLogsByProduct (Trabalho Final)"' (99874f2b)
+2024-06-02T10:15:36.1293636-03:00 0HN430L0K2J17:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/StockLogs/product/2""" - 200 null "application/json; charset=utf-8" 5620.8433ms (74253ad3)
+2024-06-02T10:16:58.7830748-03:00 0HN430L0K2J17:00000002 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Sales""" - "application/json" 113 (d509f86a)
+2024-06-02T10:16:58.7856129-03:00 0HN430L0K2J17:00000002 [INF] Executing endpoint '"ApiWebDB.Controllers.SalesController.Post (Trabalho Final)"' (500cc934)
+2024-06-02T10:16:58.7961477-03:00 0HN430L0K2J17:00000002 [INF] Route matched with "{action = \"Post\", controller = \"Sales\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.BaseDados.Models2.TbSale] Post(ApiWebDB.DTO.SaleDTO)" on controller "ApiWebDB.Controllers.SalesController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T10:16:58.9922628-03:00 0HN430L0K2J17:00000002 [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. (605b4265)
+2024-06-02T10:16:59.0756860-03:00 0HN430L0K2J17:00000002 [INF] Executed action "ApiWebDB.Controllers.SalesController.Post (Trabalho Final)" in 277.6286ms (afa2e885)
+2024-06-02T10:16:59.0777936-03:00 0HN430L0K2J17:00000002 [INF] Executed endpoint '"ApiWebDB.Controllers.SalesController.Post (Trabalho Final)"' (99874f2b)
+2024-06-02T10:16:59.0807471-03:00 0HN430L0K2J17:00000002 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Sales""" - 400 null "application/problem+json; charset=utf-8" 297.6488ms (74253ad3)
+2024-06-02T10:17:15.9712746-03:00 0HN430L0K2J17:00000003 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Sales""" - "application/json" 102 (d509f86a)
+2024-06-02T10:17:15.9717419-03:00 0HN430L0K2J17:00000003 [INF] Executing endpoint '"ApiWebDB.Controllers.SalesController.Post (Trabalho Final)"' (500cc934)
+2024-06-02T10:17:15.9719324-03:00 0HN430L0K2J17:00000003 [INF] Route matched with "{action = \"Post\", controller = \"Sales\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.BaseDados.Models2.TbSale] Post(ApiWebDB.DTO.SaleDTO)" on controller "ApiWebDB.Controllers.SalesController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T10:17:15.9787479-03:00 0HN430L0K2J17:00000003 [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. (605b4265)
+2024-06-02T10:17:15.9812048-03:00 0HN430L0K2J17:00000003 [INF] Executed action "ApiWebDB.Controllers.SalesController.Post (Trabalho Final)" in 9.1626ms (afa2e885)
+2024-06-02T10:17:15.9813354-03:00 0HN430L0K2J17:00000003 [INF] Executed endpoint '"ApiWebDB.Controllers.SalesController.Post (Trabalho Final)"' (99874f2b)
+2024-06-02T10:17:15.9814933-03:00 0HN430L0K2J17:00000003 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Sales""" - 400 null "application/problem+json; charset=utf-8" 10.2332ms (74253ad3)
+2024-06-02T10:17:27.5209191-03:00 0HN430L0K2J17:00000004 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Sales""" - "application/json" 131 (d509f86a)
+2024-06-02T10:17:27.5214222-03:00 0HN430L0K2J17:00000004 [INF] Executing endpoint '"ApiWebDB.Controllers.SalesController.Post (Trabalho Final)"' (500cc934)
+2024-06-02T10:17:27.5215665-03:00 0HN430L0K2J17:00000004 [INF] Route matched with "{action = \"Post\", controller = \"Sales\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.BaseDados.Models2.TbSale] Post(ApiWebDB.DTO.SaleDTO)" on controller "ApiWebDB.Controllers.SalesController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T10:17:27.8155032-03:00 0HN430L0K2J17:00000004 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t
+WHERE t.id = @__p_0
+LIMIT 1" (0723d8ff)
+2024-06-02T10:17:28.2459910-03:00 0HN430L0K2J17:00000004 [INF] Executed DbCommand ("11"ms) [Parameters=["@__productId_0='?' (DbType = Int32), @__endDate_1='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.enddate, t.productid, t.promotiontype, t.startdate, t.value, t0.id, t0.barcode, t0.barcodetype, t0.costprice, t0.description, t0.price, t0.stock
+FROM tb_promotions AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.productid = @__productId_0 AND t.enddate >= @__endDate_1" (0723d8ff)
+2024-06-02T10:17:28.9041794-03:00 0HN430L0K2J17:00000004 [INF] Executed DbCommand ("9"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""UPDATE tb_products SET stock = @p0
+WHERE id = @p1;
+INSERT INTO tb_stock_logs (createdat, productid, qty)
+VALUES (@p2, @p3, @p4)
+RETURNING id;" (0723d8ff)
+2024-06-02T10:17:29.0366195-03:00 0HN430L0K2J17:00000004 [INF] Executed DbCommand ("10"ms) [Parameters=["@p0='?', @p1='?' (DbType = DateTime2), @p2='?' (DbType = Decimal), @p3='?' (DbType = Decimal), @p4='?' (DbType = Int32), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tb_sales (code, createat, discount, price, productid, qty)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING id;" (0723d8ff)
+2024-06-02T10:17:29.0562582-03:00 0HN430L0K2J17:00000004 [INF] Executing "ObjectResult", writing value of type '"ApiWebDB.BaseDados.Models2.TbSale"'. (605b4265)
+2024-06-02T10:17:29.0868988-03:00 0HN430L0K2J17:00000004 [INF] Executed action "ApiWebDB.Controllers.SalesController.Post (Trabalho Final)" in 1565.2253ms (afa2e885)
+2024-06-02T10:17:29.0870025-03:00 0HN430L0K2J17:00000004 [INF] Executed endpoint '"ApiWebDB.Controllers.SalesController.Post (Trabalho Final)"' (99874f2b)
+2024-06-02T10:17:29.0877788-03:00 0HN430L0K2J17:00000004 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Sales""" - 200 null "application/json; charset=utf-8" 1566.8548ms (74253ad3)
+2024-06-02T10:22:43.9616543-03:00 0HN430L0K2J18:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/StockLogs/product/2""" - null null (d509f86a)
+2024-06-02T10:22:43.9625432-03:00 0HN430L0K2J18:00000001 [INF] Executing endpoint '"ApiWebDB.Controllers.StockLogsController.GetLogsByProduct (Trabalho Final)"' (500cc934)
+2024-06-02T10:22:43.9632481-03:00 0HN430L0K2J18:00000001 [INF] Route matched with "{action = \"GetLogsByProduct\", controller = \"StockLogs\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiWebDB.DTO.StockLogDTO]] GetLogsByProduct(Int32)" on controller "ApiWebDB.Controllers.StockLogsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T10:22:44.9936155-03:00 0HN430L0K2J18:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id AS \"Id\", t.productid AS \"Productid\", t0.barcode AS \"Barcode\", t0.description AS \"Description\", t.qty AS \"Qty\", t.createdat AS \"Createdat\"
+FROM tb_stock_logs AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.productid = @__productId_0
+ORDER BY t.createdat DESC" (0723d8ff)
+2024-06-02T10:22:44.9941707-03:00 0HN430L0K2J18:00000001 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[ApiWebDB.DTO.StockLogDTO, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2024-06-02T10:22:44.9946540-03:00 0HN430L0K2J18:00000001 [INF] Executed action "ApiWebDB.Controllers.StockLogsController.GetLogsByProduct (Trabalho Final)" in 1031.3351ms (afa2e885)
+2024-06-02T10:22:44.9947068-03:00 0HN430L0K2J18:00000001 [INF] Executed endpoint '"ApiWebDB.Controllers.StockLogsController.GetLogsByProduct (Trabalho Final)"' (99874f2b)
+2024-06-02T10:22:44.9950061-03:00 0HN430L0K2J18:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/StockLogs/product/2""" - 200 null "application/json; charset=utf-8" 1033.4533ms (74253ad3)
+2024-06-02T10:32:15.2277421-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-02T10:32:34.3621300-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-02T10:32:34.5144520-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-02T10:32:34.5183013-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-02T10:32:34.5184492-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-02T10:32:42.3925598-03:00 0HN4311TCJQ79:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-02T10:32:42.7764781-03:00 0HN4311TCJQ79:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 387.6978ms (74253ad3)
+2024-06-02T10:32:43.3692154-03:00 0HN4311TCJQ79:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - null null (d509f86a)
+2024-06-02T10:32:43.4060570-03:00 0HN4311TCJQ79:00000002 [INF] Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"' (27b0a520)
+2024-06-02T10:32:43.4069159-03:00 0HN4311TCJQ79:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - 200 665 "image/png" 37.2865ms (74253ad3)
+2024-06-02T10:32:43.5296960-03:00 0HN4311TCJQ7A:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-02T10:32:43.8659471-03:00 0HN4311TCJQ7A:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 333.9846ms (74253ad3)
+2024-06-02T10:36:15.7855171-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-02T11:33:53.1132317-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-02T11:33:53.1815075-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-02T11:33:53.1830799-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-02T11:33:53.1832488-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-02T11:34:07.0393560-03:00 0HN43247GQ4SI:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-02T11:34:07.2631824-03:00 0HN43247GQ4SI:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 224.9344ms (74253ad3)
+2024-06-02T11:34:07.4290447-03:00 0HN43247GQ4SI:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - null null (d509f86a)
+2024-06-02T11:34:07.4693257-03:00 0HN43247GQ4SI:00000002 [INF] Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"' (27b0a520)
+2024-06-02T11:34:07.4698452-03:00 0HN43247GQ4SI:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - 499 665 "image/png" 40.7031ms (74253ad3)
+2024-06-02T11:34:07.5209998-03:00 0HN43247GQ4SJ:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-02T11:34:07.7066794-03:00 0HN43247GQ4SJ:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 185.6603ms (74253ad3)
+2024-06-02T11:34:42.0546655-03:00 0HN43247GQ4SJ:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products/barcode/1234567890123""" - null null (d509f86a)
+2024-06-02T11:34:42.0688361-03:00 0HN43247GQ4SJ:00000002 [INF] Executing endpoint '"ApiWebDB.Controllers.ProductsController.GetByBarcode (Trabalho Final)"' (500cc934)
+2024-06-02T11:34:42.0989220-03:00 0HN43247GQ4SJ:00000002 [INF] Route matched with "{action = \"GetByBarcode\", controller = \"Products\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.BaseDados.Models2.TbProduct] GetByBarcode(System.String)" on controller "ApiWebDB.Controllers.ProductsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T11:34:44.4429884-03:00 0HN43247GQ4SJ:00000002 [INF] Executed DbCommand ("74"ms) [Parameters=["@__barcode_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t
+WHERE t.barcode = @__barcode_0
+LIMIT 1" (0723d8ff)
+2024-06-02T11:34:44.5896887-03:00 0HN43247GQ4SJ:00000002 [INF] Executing "OkObjectResult", writing value of type '"ApiWebDB.DTO.ProductDTO"'. (605b4265)
+2024-06-02T11:34:44.6211337-03:00 0HN43247GQ4SJ:00000002 [INF] Executed action "ApiWebDB.Controllers.ProductsController.GetByBarcode (Trabalho Final)" in 2516.9584ms (afa2e885)
+2024-06-02T11:34:44.6212863-03:00 0HN43247GQ4SJ:00000002 [INF] Executed endpoint '"ApiWebDB.Controllers.ProductsController.GetByBarcode (Trabalho Final)"' (99874f2b)
+2024-06-02T11:34:44.6364362-03:00 0HN43247GQ4SJ:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products/barcode/1234567890123""" - 200 null "application/json; charset=utf-8" 2581.6891ms (74253ad3)
+2024-06-02T11:36:42.9465722-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-02T11:36:53.1854428-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-02T11:36:53.2622032-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-02T11:36:53.2637401-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-02T11:36:53.2638559-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-02T11:37:01.5764130-03:00 0HN4325RHB6NU:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-02T11:37:01.8138874-03:00 0HN4325RHB6NU:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 238.8227ms (74253ad3)
+2024-06-02T11:37:02.0667583-03:00 0HN4325RHB6NU:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-02T11:37:02.2705462-03:00 0HN4325RHB6NU:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 203.6536ms (74253ad3)
+2024-06-02T11:37:13.6706032-03:00 0HN4325RHB6NU:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products/description/Produto""" - null null (d509f86a)
+2024-06-02T11:37:13.6849602-03:00 0HN4325RHB6NU:00000003 [INF] Executing endpoint '"ApiWebDB.Controllers.ProductsController.GetByDescription (Trabalho Final)"' (500cc934)
+2024-06-02T11:37:13.7193295-03:00 0HN4325RHB6NU:00000003 [INF] Route matched with "{action = \"GetByDescription\", controller = \"Products\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiWebDB.BaseDados.Models2.TbProduct]] GetByDescription(System.String)" on controller "ApiWebDB.Controllers.ProductsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T11:37:15.9556687-03:00 0HN4325RHB6NU:00000003 [INF] Executed DbCommand ("82"ms) [Parameters=["@__Format_1='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t
+WHERE t.description LIKE @__Format_1 ESCAPE ''" (0723d8ff)
+2024-06-02T11:37:16.0989164-03:00 0HN4325RHB6NU:00000003 [INF] Executed action "ApiWebDB.Controllers.ProductsController.GetByDescription (Trabalho Final)" in 2374.8404ms (afa2e885)
+2024-06-02T11:37:16.1007504-03:00 0HN4325RHB6NU:00000003 [INF] Executed endpoint '"ApiWebDB.Controllers.ProductsController.GetByDescription (Trabalho Final)"' (99874f2b)
+2024-06-02T11:37:16.1270177-03:00 0HN4325RHB6NU:00000003 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+List`1 -> ProductDTO
+System.Collections.Generic.List`1[[ApiWebDB.BaseDados.Models2.TbProduct, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> ApiWebDB.DTO.ProductDTO
+   at lambda_method64(Closure, Object, ProductDTO, ResolutionContext)
+   at ApiWebDB.Controllers.ProductsController.GetByDescription(String description) in /home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/Controllers/ProductsController.cs:line 47
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-02T11:37:16.1512525-03:00 0HN4325RHB6NU:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products/description/Produto""" - 500 null "text/plain; charset=utf-8" 2480.7295ms (74253ad3)
+2024-06-02T11:37:42.0390769-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-02T11:38:01.6350113-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-02T11:38:01.7020485-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-02T11:38:01.7041354-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-02T11:38:01.7042802-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-02T11:38:46.0102405-03:00 0HN4326QL9KFL:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products/description/Produto""" - null null (d509f86a)
+2024-06-02T11:38:46.0873986-03:00 0HN4326QL9KFL:00000001 [INF] Executing endpoint '"ApiWebDB.Controllers.ProductsController.GetByDescription (Trabalho Final)"' (500cc934)
+2024-06-02T11:38:46.1219961-03:00 0HN4326QL9KFL:00000001 [INF] Route matched with "{action = \"GetByDescription\", controller = \"Products\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiWebDB.BaseDados.Models2.TbProduct]] GetByDescription(System.String)" on controller "ApiWebDB.Controllers.ProductsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T11:38:48.6346355-03:00 0HN4326QL9KFL:00000001 [INF] Executed DbCommand ("78"ms) [Parameters=["@__Format_1='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t
+WHERE t.description LIKE @__Format_1 ESCAPE ''" (0723d8ff)
+2024-06-02T11:38:48.7884588-03:00 0HN4326QL9KFL:00000001 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[ApiWebDB.BaseDados.Models2.TbProduct, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2024-06-02T11:38:48.9318906-03:00 0HN4326QL9KFL:00000001 [INF] Executed action "ApiWebDB.Controllers.ProductsController.GetByDescription (Trabalho Final)" in 2803.1116ms (afa2e885)
+2024-06-02T11:38:48.9320204-03:00 0HN4326QL9KFL:00000001 [INF] Executed endpoint '"ApiWebDB.Controllers.ProductsController.GetByDescription (Trabalho Final)"' (99874f2b)
+2024-06-02T11:38:48.9492393-03:00 0HN4326QL9KFL:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products/description/Produto""" - 200 null "application/json; charset=utf-8" 2939.9891ms (74253ad3)
+2024-06-02T11:42:58.4143450-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-02T11:43:08.5073096-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-02T11:43:08.5831540-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-02T11:43:08.5860719-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-02T11:43:08.5863459-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-02T11:49:40.3782799-03:00 0HN432CTLQNMM:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products/description/Produto""" - null null (d509f86a)
+2024-06-02T11:49:40.4504761-03:00 0HN432CTLQNMM:00000001 [INF] Executing endpoint '"ApiWebDB.Controllers.ProductsController.GetByDescription (Trabalho Final)"' (500cc934)
+2024-06-02T11:49:40.4817588-03:00 0HN432CTLQNMM:00000001 [INF] Route matched with "{action = \"GetByDescription\", controller = \"Products\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiWebDB.BaseDados.Models2.TbProduct]] GetByDescription(System.String)" on controller "ApiWebDB.Controllers.ProductsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T11:49:42.7551332-03:00 0HN432CTLQNMM:00000001 [INF] Executed DbCommand ("86"ms) [Parameters=["@__Format_1='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t
+WHERE t.description LIKE @__Format_1 ESCAPE ''" (0723d8ff)
+2024-06-02T11:49:42.9346062-03:00 0HN432CTLQNMM:00000001 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[ApiWebDB.DTO.ProductDTO, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2024-06-02T11:49:43.0542730-03:00 0HN432CTLQNMM:00000001 [INF] Executed action "ApiWebDB.Controllers.ProductsController.GetByDescription (Trabalho Final)" in 2564.7656ms (afa2e885)
+2024-06-02T11:49:43.0544546-03:00 0HN432CTLQNMM:00000001 [INF] Executed endpoint '"ApiWebDB.Controllers.ProductsController.GetByDescription (Trabalho Final)"' (99874f2b)
+2024-06-02T11:49:43.0697573-03:00 0HN432CTLQNMM:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products/description/Produto""" - 200 null "application/json; charset=utf-8" 2693.8287ms (74253ad3)
+2024-06-02T11:58:50.3109302-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-02T11:59:01.0670356-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-02T11:59:01.1353614-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-02T11:59:01.1371790-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-02T11:59:01.1374893-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-02T11:59:56.4396232-03:00 0HN432IL929A7:00000001 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Products""" - "application/json" 162 (d509f86a)
+2024-06-02T11:59:56.5074137-03:00 0HN432IL929A7:00000001 [INF] Executing endpoint '"ApiWebDB.Controllers.ProductsController.Post (Trabalho Final)"' (500cc934)
+2024-06-02T11:59:56.5366458-03:00 0HN432IL929A7:00000001 [INF] Route matched with "{action = \"Post\", controller = \"Products\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.BaseDados.Models2.TbProduct] Post(ApiWebDB.DTO.ProductDTO)" on controller "ApiWebDB.Controllers.ProductsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T11:59:58.8920528-03:00 0HN432IL929A7:00000001 [INF] Executed DbCommand ("90"ms) [Parameters=["@p0='?', @p1='?', @p2='?' (DbType = Decimal), @p3='?', @p4='?' (DbType = Decimal), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tb_products (barcode, barcodetype, costprice, description, price, stock)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING id;" (0723d8ff)
+2024-06-02T11:59:59.0336460-03:00 0HN432IL929A7:00000001 [INF] Executed DbCommand ("9"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tb_stock_logs (createdat, productid, qty)
+VALUES (@p0, @p1, @p2)
+RETURNING id;" (0723d8ff)
+2024-06-02T11:59:59.0702428-03:00 0HN432IL929A7:00000001 [INF] Executing "OkObjectResult", writing value of type '"ApiWebDB.DTO.ProductDTO"'. (605b4265)
+2024-06-02T11:59:59.1242184-03:00 0HN432IL929A7:00000001 [INF] Executed action "ApiWebDB.Controllers.ProductsController.Post (Trabalho Final)" in 2581.3324ms (afa2e885)
+2024-06-02T11:59:59.1243853-03:00 0HN432IL929A7:00000001 [INF] Executed endpoint '"ApiWebDB.Controllers.ProductsController.Post (Trabalho Final)"' (99874f2b)
+2024-06-02T11:59:59.1401099-03:00 0HN432IL929A7:00000001 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Products""" - 200 null "application/json; charset=utf-8" 2702.6478ms (74253ad3)
+2024-06-02T12:03:04.9959572-03:00 0HN432IL929A8:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products/description/Produto""" - null null (d509f86a)
+2024-06-02T12:03:05.0110370-03:00 0HN432IL929A8:00000001 [INF] Executing endpoint '"ApiWebDB.Controllers.ProductsController.GetByDescription (Trabalho Final)"' (500cc934)
+2024-06-02T12:03:05.0192452-03:00 0HN432IL929A8:00000001 [INF] Route matched with "{action = \"GetByDescription\", controller = \"Products\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiWebDB.BaseDados.Models2.TbProduct]] GetByDescription(System.String)" on controller "ApiWebDB.Controllers.ProductsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T12:03:05.5087200-03:00 0HN432IL929A8:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__Format_1='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t
+WHERE t.description LIKE @__Format_1 ESCAPE ''" (0723d8ff)
+2024-06-02T12:03:05.5439414-03:00 0HN432IL929A8:00000001 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[ApiWebDB.DTO.ProductDTO, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2024-06-02T12:03:05.5592836-03:00 0HN432IL929A8:00000001 [INF] Executed action "ApiWebDB.Controllers.ProductsController.GetByDescription (Trabalho Final)" in 539.8575ms (afa2e885)
+2024-06-02T12:03:05.5600922-03:00 0HN432IL929A8:00000001 [INF] Executed endpoint '"ApiWebDB.Controllers.ProductsController.GetByDescription (Trabalho Final)"' (99874f2b)
+2024-06-02T12:03:05.5615595-03:00 0HN432IL929A8:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products/description/Produto""" - 200 null "application/json; charset=utf-8" 565.6089ms (74253ad3)
+2024-06-02T12:30:50.4992335-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-02T12:31:01.8866926-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-02T12:31:01.9631332-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-02T12:31:01.9656191-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-02T12:31:01.9660131-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-02T12:31:13.5999509-03:00 0HN43344N0G94:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-02T12:31:13.8249717-03:00 0HN43344N0G94:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 228.2365ms (74253ad3)
+2024-06-02T12:31:13.9729918-03:00 0HN43344N0G94:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - null null (d509f86a)
+2024-06-02T12:31:13.9978921-03:00 0HN43344N0G94:00000002 [INF] Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"' (27b0a520)
+2024-06-02T12:31:13.9990256-03:00 0HN43344N0G94:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - 499 665 "image/png" 26.0241ms (74253ad3)
+2024-06-02T12:31:14.0576246-03:00 0HN43344N0G95:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-02T12:31:14.2337616-03:00 0HN43344N0G95:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 176.1089ms (74253ad3)
+2024-06-02T12:31:59.2209930-03:00 0HN43344N0G95:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Sales/report""?code=123&startDate=2024-05-01%2012%3A27%3A00&endDate=2024-06-01%2012%3A27%3A00" - null null (d509f86a)
+2024-06-02T12:31:59.2312674-03:00 0HN43344N0G95:00000002 [INF] Executing endpoint '"ApiWebDB.Controllers.SalesController.GetSalesReportByPeriod (Trabalho Final)"' (500cc934)
+2024-06-02T12:31:59.2639021-03:00 0HN43344N0G95:00000002 [INF] Route matched with "{action = \"GetSalesReportByPeriod\", controller = \"Sales\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TrabalhoFinal.Services.SaleReportDTO]] GetSalesReportByPeriod(System.String, System.DateTime, System.DateTime)" on controller "ApiWebDB.Controllers.SalesController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T12:32:01.6325260-03:00 0HN43344N0G95:00000002 [INF] Executed DbCommand ("81"ms) [Parameters=["@__code_0='?', @__startDate_1='?' (DbType = DateTime2), @__endDate_2='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.code, t.createat, t.discount, t.price, t.productid, t.qty, t0.id, t0.barcode, t0.barcodetype, t0.costprice, t0.description, t0.price, t0.stock
+FROM tb_sales AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.code = @__code_0 AND t.createat >= @__startDate_1 AND t.createat <= @__endDate_2
+ORDER BY t.createat DESC" (0723d8ff)
+2024-06-02T12:32:01.8219654-03:00 0HN43344N0G95:00000002 [INF] Executed action "ApiWebDB.Controllers.SalesController.GetSalesReportByPeriod (Trabalho Final)" in 2552.5941ms (afa2e885)
+2024-06-02T12:32:01.8232339-03:00 0HN43344N0G95:00000002 [INF] Executed endpoint '"ApiWebDB.Controllers.SalesController.GetSalesReportByPeriod (Trabalho Final)"' (99874f2b)
+2024-06-02T12:32:01.8485697-03:00 0HN43344N0G95:00000002 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+List`1 -> SaleDTO
+System.Collections.Generic.List`1[[TrabalhoFinal.Services.SaleReportDTO, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> ApiWebDB.DTO.SaleDTO
+   at lambda_method109(Closure, Object, SaleDTO, ResolutionContext)
+   at ApiWebDB.Controllers.SalesController.GetSalesReportByPeriod(String code, DateTime startDate, DateTime endDate) in /home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/Controllers/SalesController.cs:line 43
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-02T12:32:01.8719218-03:00 0HN43344N0G95:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Sales/report""?code=123&startDate=2024-05-01%2012%3A27%3A00&endDate=2024-06-01%2012%3A27%3A00" - 500 null "text/plain; charset=utf-8" 2650.956ms (74253ad3)
+2024-06-02T12:39:06.6804136-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-02T12:39:17.3663268-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-02T12:39:17.4304205-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-02T12:39:17.4321501-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-02T12:39:17.4322950-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-02T12:39:32.9309185-03:00 0HN4338PGUSF4:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-02T12:39:33.1544230-03:00 0HN4338PGUSF4:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 226.5029ms (74253ad3)
+2024-06-02T12:39:33.3040777-03:00 0HN4338PGUSF4:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - null null (d509f86a)
+2024-06-02T12:39:33.3409070-03:00 0HN4338PGUSF4:00000002 [INF] Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"' (27b0a520)
+2024-06-02T12:39:33.3423115-03:00 0HN4338PGUSF4:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - 499 665 "image/png" 38.1719ms (74253ad3)
+2024-06-02T12:39:33.3973508-03:00 0HN4338PGUSF5:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-02T12:39:33.5722883-03:00 0HN4338PGUSF5:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 174.8667ms (74253ad3)
+2024-06-02T12:40:07.0506713-03:00 0HN4338PGUSF5:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Sales/report""?code=123&startDate=2024-05-01%2012%3A27%3A00&endDate=2024-06-01%2012%3A27%3A00" - null null (d509f86a)
+2024-06-02T12:40:07.0636463-03:00 0HN4338PGUSF5:00000002 [INF] Executing endpoint '"ApiWebDB.Controllers.SalesController.GetSalesReportByPeriod (Trabalho Final)"' (500cc934)
+2024-06-02T12:40:07.0972901-03:00 0HN4338PGUSF5:00000002 [INF] Route matched with "{action = \"GetSalesReportByPeriod\", controller = \"Sales\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TrabalhoFinal.Services.SaleReportDTO]] GetSalesReportByPeriod(System.String, System.DateTime, System.DateTime)" on controller "ApiWebDB.Controllers.SalesController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T12:40:09.3389682-03:00 0HN4338PGUSF5:00000002 [INF] Executed DbCommand ("78"ms) [Parameters=["@__code_0='?', @__startDate_1='?' (DbType = DateTime2), @__endDate_2='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.code, t.createat, t.discount, t.price, t.productid, t.qty, t0.id, t0.barcode, t0.barcodetype, t0.costprice, t0.description, t0.price, t0.stock
+FROM tb_sales AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.code = @__code_0 AND t.createat >= @__startDate_1 AND t.createat <= @__endDate_2
+ORDER BY t.createat DESC" (0723d8ff)
+2024-06-02T12:40:09.5346289-03:00 0HN4338PGUSF5:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[ApiWebDB.DTO.SaleDTO, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2024-06-02T12:40:09.5686871-03:00 0HN4338PGUSF5:00000002 [INF] Executed action "ApiWebDB.Controllers.SalesController.GetSalesReportByPeriod (Trabalho Final)" in 2465.8521ms (afa2e885)
+2024-06-02T12:40:09.5688258-03:00 0HN4338PGUSF5:00000002 [INF] Executed endpoint '"ApiWebDB.Controllers.SalesController.GetSalesReportByPeriod (Trabalho Final)"' (99874f2b)
+2024-06-02T12:40:09.5819392-03:00 0HN4338PGUSF5:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Sales/report""?code=123&startDate=2024-05-01%2012%3A27%3A00&endDate=2024-06-01%2012%3A27%3A00" - 200 null "application/json; charset=utf-8" 2531.3074ms (74253ad3)
+2024-06-02T12:41:07.4873699-03:00 0HN4338PGUSF5:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Sales/report""?code=123&startDate=2024-05-01%2012%3A27%3A00&endDate=2024-06-03%2012%3A27%3A00" - null null (d509f86a)
+2024-06-02T12:41:07.4897893-03:00 0HN4338PGUSF5:00000003 [INF] Executing endpoint '"ApiWebDB.Controllers.SalesController.GetSalesReportByPeriod (Trabalho Final)"' (500cc934)
+2024-06-02T12:41:07.4902055-03:00 0HN4338PGUSF5:00000003 [INF] Route matched with "{action = \"GetSalesReportByPeriod\", controller = \"Sales\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TrabalhoFinal.Services.SaleReportDTO]] GetSalesReportByPeriod(System.String, System.DateTime, System.DateTime)" on controller "ApiWebDB.Controllers.SalesController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T12:41:07.5285361-03:00 0HN4338PGUSF5:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__code_0='?', @__startDate_1='?' (DbType = DateTime2), @__endDate_2='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.code, t.createat, t.discount, t.price, t.productid, t.qty, t0.id, t0.barcode, t0.barcodetype, t0.costprice, t0.description, t0.price, t0.stock
+FROM tb_sales AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.code = @__code_0 AND t.createat >= @__startDate_1 AND t.createat <= @__endDate_2
+ORDER BY t.createat DESC" (0723d8ff)
+2024-06-02T12:41:07.5317912-03:00 0HN4338PGUSF5:00000003 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[ApiWebDB.DTO.SaleDTO, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2024-06-02T12:41:07.5322989-03:00 0HN4338PGUSF5:00000003 [INF] Executed action "ApiWebDB.Controllers.SalesController.GetSalesReportByPeriod (Trabalho Final)" in 41.9081ms (afa2e885)
+2024-06-02T12:41:07.5323866-03:00 0HN4338PGUSF5:00000003 [INF] Executed endpoint '"ApiWebDB.Controllers.SalesController.GetSalesReportByPeriod (Trabalho Final)"' (99874f2b)
+2024-06-02T12:41:07.5326971-03:00 0HN4338PGUSF5:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Sales/report""?code=123&startDate=2024-05-01%2012%3A27%3A00&endDate=2024-06-03%2012%3A27%3A00" - 200 null "application/json; charset=utf-8" 45.3472ms (74253ad3)
+2024-06-02T12:41:42.0613903-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-02T12:41:54.7031730-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-02T12:41:54.8080420-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-02T12:41:54.8143208-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-02T12:41:54.8146711-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-02T12:42:11.5408440-03:00 0HN433A8PLOK6:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Sales/report""?code=123&startDate=2024-05-01%2012%3A27%3A00&endDate=2024-06-03%2012%3A27%3A00" - null null (d509f86a)
+2024-06-02T12:42:11.6142271-03:00 0HN433A8PLOK6:00000001 [INF] Executing endpoint '"ApiWebDB.Controllers.SalesController.GetSalesReportByPeriod (Trabalho Final)"' (500cc934)
+2024-06-02T12:42:11.6440598-03:00 0HN433A8PLOK6:00000001 [INF] Route matched with "{action = \"GetSalesReportByPeriod\", controller = \"Sales\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TrabalhoFinal.Services.SaleReportDTO]] GetSalesReportByPeriod(System.String, System.DateTime, System.DateTime)" on controller "ApiWebDB.Controllers.SalesController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T12:42:13.8532231-03:00 0HN433A8PLOK6:00000001 [INF] Executed DbCommand ("85"ms) [Parameters=["@__code_0='?', @__startDate_1='?' (DbType = DateTime2), @__endDate_2='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.code, t.createat, t.discount, t.price, t.productid, t.qty, t0.id, t0.barcode, t0.barcodetype, t0.costprice, t0.description, t0.price, t0.stock
+FROM tb_sales AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.code = @__code_0 AND t.createat >= @__startDate_1 AND t.createat <= @__endDate_2
+ORDER BY t.createat DESC" (0723d8ff)
+2024-06-02T12:42:14.0638589-03:00 0HN433A8PLOK6:00000001 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[TrabalhoFinal.Services.SaleReportDTO, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2024-06-02T12:42:14.1797473-03:00 0HN433A8PLOK6:00000001 [INF] Executed action "ApiWebDB.Controllers.SalesController.GetSalesReportByPeriod (Trabalho Final)" in 2529.9937ms (afa2e885)
+2024-06-02T12:42:14.1800325-03:00 0HN433A8PLOK6:00000001 [INF] Executed endpoint '"ApiWebDB.Controllers.SalesController.GetSalesReportByPeriod (Trabalho Final)"' (99874f2b)
+2024-06-02T12:42:14.1954378-03:00 0HN433A8PLOK6:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Sales/report""?code=123&startDate=2024-05-01%2012%3A27%3A00&endDate=2024-06-03%2012%3A27%3A00" - 200 null "application/json; charset=utf-8" 2657.9133ms (74253ad3)
+2024-06-02T12:42:40.2297522-03:00 0HN433A8PLOK6:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Sales/123""" - null null (d509f86a)
+2024-06-02T12:42:40.2371372-03:00 0HN433A8PLOK6:00000002 [INF] Executing endpoint '"ApiWebDB.Controllers.SalesController.Get (Trabalho Final)"' (500cc934)
+2024-06-02T12:42:40.2445693-03:00 0HN433A8PLOK6:00000002 [INF] Route matched with "{action = \"Get\", controller = \"Sales\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.DTO.SaleDTO] Get(System.String)" on controller "ApiWebDB.Controllers.SalesController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T12:42:40.3011706-03:00 0HN433A8PLOK6:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__code_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.code, t.createat, t.discount, t.price, t.productid, t.qty, t0.id, t0.barcode, t0.barcodetype, t0.costprice, t0.description, t0.price, t0.stock
+FROM tb_sales AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.code = @__code_0" (0723d8ff)
+2024-06-02T12:42:40.3105890-03:00 0HN433A8PLOK6:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[ApiWebDB.BaseDados.Models2.TbSale, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2024-06-02T12:42:40.3582142-03:00 0HN433A8PLOK6:00000002 [INF] Executed action "ApiWebDB.Controllers.SalesController.Get (Trabalho Final)" in 113.4141ms (afa2e885)
+2024-06-02T12:42:40.3583466-03:00 0HN433A8PLOK6:00000002 [INF] Executed endpoint '"ApiWebDB.Controllers.SalesController.Get (Trabalho Final)"' (99874f2b)
+2024-06-02T12:42:40.3617641-03:00 0HN433A8PLOK6:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Sales/123""" - 200 null "application/json; charset=utf-8" 131.9004ms (74253ad3)
+2024-06-02T12:43:29.1272275-03:00 0HN433A8PLOK6:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Promotions/product/2/period""?startDate=2024-05-01%2012%3A27%3A00&endDate=2024-06-03%2012%3A27%3A00" - null null (d509f86a)
+2024-06-02T12:43:29.1297293-03:00 0HN433A8PLOK6:00000003 [INF] Executing endpoint '"ApiWebDB.Controllers.PromotionsController.GetPromotionsByProductAndPeriod (Trabalho Final)"' (500cc934)
+2024-06-02T12:43:29.1344986-03:00 0HN433A8PLOK6:00000003 [INF] Route matched with "{action = \"GetPromotionsByProductAndPeriod\", controller = \"Promotions\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiWebDB.BaseDados.Models2.TbPromotion]] GetPromotionsByProductAndPeriod(Int32, System.DateTime, System.DateTime)" on controller "ApiWebDB.Controllers.PromotionsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T12:43:29.2413815-03:00 0HN433A8PLOK6:00000003 [INF] Executed DbCommand ("3"ms) [Parameters=["@__productId_0='?' (DbType = Int32), @__startDate_1='?' (DbType = DateTime2), @__endDate_2='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.enddate, t.productid, t.promotiontype, t.startdate, t.value, t0.id, t0.barcode, t0.barcodetype, t0.costprice, t0.description, t0.price, t0.stock
+FROM tb_promotions AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.productid = @__productId_0 AND t.startdate >= @__startDate_1 AND t.enddate <= @__endDate_2" (0723d8ff)
+2024-06-02T12:43:29.2988518-03:00 0HN433A8PLOK6:00000003 [INF] Executed action "ApiWebDB.Controllers.PromotionsController.GetPromotionsByProductAndPeriod (Trabalho Final)" in 164.1051ms (afa2e885)
+2024-06-02T12:43:29.2996895-03:00 0HN433A8PLOK6:00000003 [INF] Executed endpoint '"ApiWebDB.Controllers.PromotionsController.GetPromotionsByProductAndPeriod (Trabalho Final)"' (99874f2b)
+2024-06-02T12:43:29.3253512-03:00 0HN433A8PLOK6:00000003 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[ApiWebDB.BaseDados.Models2.TbPromotion, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[ApiWebDB.DTO.ProductDTO, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TbPromotion -> ProductDTO
+ApiWebDB.BaseDados.Models2.TbPromotion -> ApiWebDB.DTO.ProductDTO
+   at lambda_method158(Closure, TbPromotion, ProductDTO, ResolutionContext)
+   at lambda_method157(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method157(Closure, Object, IEnumerable`1, ResolutionContext)
+   at ApiWebDB.Controllers.PromotionsController.GetPromotionsByProductAndPeriod(Int32 productId, DateTime startDate, DateTime endDate) in /home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/Controllers/PromotionsController.cs:line 32
+   at lambda_method114(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-02T12:43:29.3330285-03:00 0HN433A8PLOK6:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Promotions/product/2/period""?startDate=2024-05-01%2012%3A27%3A00&endDate=2024-06-03%2012%3A27%3A00" - 500 null "text/plain; charset=utf-8" 205.7468ms (74253ad3)
+2024-06-02T12:44:27.6465384-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-02T12:44:39.3355040-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-02T12:44:39.3937555-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-02T12:44:39.4023857-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-02T12:44:39.4025082-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-02T12:44:45.1149046-03:00 0HN433BMI7AP4:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Promotions/product/2/period""?startDate=2024-05-01%2012%3A27%3A00&endDate=2024-06-03%2012%3A27%3A00" - null null (d509f86a)
+2024-06-02T12:44:45.1938936-03:00 0HN433BMI7AP4:00000001 [INF] Executing endpoint '"ApiWebDB.Controllers.PromotionsController.GetPromotionsByProductAndPeriod (Trabalho Final)"' (500cc934)
+2024-06-02T12:44:45.2273525-03:00 0HN433BMI7AP4:00000001 [INF] Route matched with "{action = \"GetPromotionsByProductAndPeriod\", controller = \"Promotions\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiWebDB.BaseDados.Models2.TbPromotion]] GetPromotionsByProductAndPeriod(Int32, System.DateTime, System.DateTime)" on controller "ApiWebDB.Controllers.PromotionsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T12:44:47.4438958-03:00 0HN433BMI7AP4:00000001 [INF] Executed DbCommand ("82"ms) [Parameters=["@__productId_0='?' (DbType = Int32), @__startDate_1='?' (DbType = DateTime2), @__endDate_2='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.enddate, t.productid, t.promotiontype, t.startdate, t.value, t0.id, t0.barcode, t0.barcodetype, t0.costprice, t0.description, t0.price, t0.stock
+FROM tb_promotions AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.productid = @__productId_0 AND t.startdate >= @__startDate_1 AND t.enddate <= @__endDate_2" (0723d8ff)
+2024-06-02T12:44:47.6109805-03:00 0HN433BMI7AP4:00000001 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[ApiWebDB.BaseDados.Models2.TbPromotion, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2024-06-02T12:44:47.7400702-03:00 0HN433BMI7AP4:00000001 [INF] Executed action "ApiWebDB.Controllers.PromotionsController.GetPromotionsByProductAndPeriod (Trabalho Final)" in 2506.403ms (afa2e885)
+2024-06-02T12:44:47.7402923-03:00 0HN433BMI7AP4:00000001 [INF] Executed endpoint '"ApiWebDB.Controllers.PromotionsController.GetPromotionsByProductAndPeriod (Trabalho Final)"' (99874f2b)
+2024-06-02T12:44:47.7546311-03:00 0HN433BMI7AP4:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Promotions/product/2/period""?startDate=2024-05-01%2012%3A27%3A00&endDate=2024-06-03%2012%3A27%3A00" - 200 null "application/json; charset=utf-8" 2642.5807ms (74253ad3)
+2024-06-02T12:47:15.4359421-03:00 0HN433BMI7AP5:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Sales/report""?code=123&startDate=2024-05-01%2012%3A27%3A00&endDate=2024-06-03%2012%3A27%3A00" - null null (d509f86a)
+2024-06-02T12:47:15.4433514-03:00 0HN433BMI7AP5:00000001 [INF] Executing endpoint '"ApiWebDB.Controllers.SalesController.GetSalesReportByPeriod (Trabalho Final)"' (500cc934)
+2024-06-02T12:47:15.4559989-03:00 0HN433BMI7AP5:00000001 [INF] Route matched with "{action = \"GetSalesReportByPeriod\", controller = \"Sales\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TrabalhoFinal.Services.SaleReportDTO]] GetSalesReportByPeriod(System.String, System.DateTime, System.DateTime)" on controller "ApiWebDB.Controllers.SalesController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T12:47:15.5329877-03:00 0HN433BMI7AP5:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=["@__code_0='?', @__startDate_1='?' (DbType = DateTime2), @__endDate_2='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.code, t.createat, t.discount, t.price, t.productid, t.qty, t0.id, t0.barcode, t0.barcodetype, t0.costprice, t0.description, t0.price, t0.stock
+FROM tb_sales AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.code = @__code_0 AND t.createat >= @__startDate_1 AND t.createat <= @__endDate_2
+ORDER BY t.createat DESC" (0723d8ff)
+2024-06-02T12:47:15.5769583-03:00 0HN433BMI7AP5:00000001 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[TrabalhoFinal.Services.SaleReportDTO, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2024-06-02T12:47:15.5892530-03:00 0HN433BMI7AP5:00000001 [INF] Executed action "ApiWebDB.Controllers.SalesController.GetSalesReportByPeriod (Trabalho Final)" in 133.0658ms (afa2e885)
+2024-06-02T12:47:15.5893797-03:00 0HN433BMI7AP5:00000001 [INF] Executed endpoint '"ApiWebDB.Controllers.SalesController.GetSalesReportByPeriod (Trabalho Final)"' (99874f2b)
+2024-06-02T12:47:15.5901085-03:00 0HN433BMI7AP5:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Sales/report""?code=123&startDate=2024-05-01%2012%3A27%3A00&endDate=2024-06-03%2012%3A27%3A00" - 200 null "application/json; charset=utf-8" 153.9868ms (74253ad3)
+2024-06-02T12:47:27.0805221-03:00 0HN433BMI7AP5:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Sales/123""" - null null (d509f86a)
+2024-06-02T12:47:27.0825145-03:00 0HN433BMI7AP5:00000002 [INF] Executing endpoint '"ApiWebDB.Controllers.SalesController.Get (Trabalho Final)"' (500cc934)
+2024-06-02T12:47:27.0862478-03:00 0HN433BMI7AP5:00000002 [INF] Route matched with "{action = \"Get\", controller = \"Sales\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.DTO.SaleDTO] Get(System.String)" on controller "ApiWebDB.Controllers.SalesController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T12:47:27.2076869-03:00 0HN433BMI7AP5:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__code_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.code, t.createat, t.discount, t.price, t.productid, t.qty, t0.id, t0.barcode, t0.barcodetype, t0.costprice, t0.description, t0.price, t0.stock
+FROM tb_sales AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.code = @__code_0" (0723d8ff)
+2024-06-02T12:47:27.2120781-03:00 0HN433BMI7AP5:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[ApiWebDB.BaseDados.Models2.TbSale, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2024-06-02T12:47:27.2183883-03:00 0HN433BMI7AP5:00000002 [INF] Executed action "ApiWebDB.Controllers.SalesController.Get (Trabalho Final)" in 132.0232ms (afa2e885)
+2024-06-02T12:47:27.2192530-03:00 0HN433BMI7AP5:00000002 [INF] Executed endpoint '"ApiWebDB.Controllers.SalesController.Get (Trabalho Final)"' (99874f2b)
+2024-06-02T12:47:27.2199396-03:00 0HN433BMI7AP5:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Sales/123""" - 200 null "application/json; charset=utf-8" 139.3912ms (74253ad3)
+2024-06-02T12:48:20.9665166-03:00 0HN433BMI7AP5:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/StockLogs/product/2""" - null null (d509f86a)
+2024-06-02T12:48:20.9670478-03:00 0HN433BMI7AP5:00000003 [INF] Executing endpoint '"ApiWebDB.Controllers.StockLogsController.GetLogsByProduct (Trabalho Final)"' (500cc934)
+2024-06-02T12:48:20.9700298-03:00 0HN433BMI7AP5:00000003 [INF] Route matched with "{action = \"GetLogsByProduct\", controller = \"StockLogs\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiWebDB.DTO.StockLogDTO]] GetLogsByProduct(Int32)" on controller "ApiWebDB.Controllers.StockLogsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T12:48:21.0025802-03:00 0HN433BMI7AP5:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id AS \"Id\", t.productid AS \"Productid\", t0.barcode AS \"Barcode\", t0.description AS \"Description\", t.qty AS \"Qty\", t.createdat AS \"Createdat\"
+FROM tb_stock_logs AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.productid = @__productId_0
+ORDER BY t.createdat DESC" (0723d8ff)
+2024-06-02T12:48:21.0073986-03:00 0HN433BMI7AP5:00000003 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[ApiWebDB.DTO.StockLogDTO, Trabalho Final, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2024-06-02T12:48:21.0136560-03:00 0HN433BMI7AP5:00000003 [INF] Executed action "ApiWebDB.Controllers.StockLogsController.GetLogsByProduct (Trabalho Final)" in 43.2439ms (afa2e885)
+2024-06-02T12:48:21.0144690-03:00 0HN433BMI7AP5:00000003 [INF] Executed endpoint '"ApiWebDB.Controllers.StockLogsController.GetLogsByProduct (Trabalho Final)"' (99874f2b)
+2024-06-02T12:48:21.0158096-03:00 0HN433BMI7AP5:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/StockLogs/product/2""" - 200 null "application/json; charset=utf-8" 49.2684ms (74253ad3)
+2024-06-02T12:48:45.6266377-03:00 0HN433BMI7AP5:00000004 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products/barcode/1234567890123""" - null null (d509f86a)
+2024-06-02T12:48:45.6271576-03:00 0HN433BMI7AP5:00000004 [INF] Executing endpoint '"ApiWebDB.Controllers.ProductsController.GetByBarcode (Trabalho Final)"' (500cc934)
+2024-06-02T12:48:45.6296555-03:00 0HN433BMI7AP5:00000004 [INF] Route matched with "{action = \"GetByBarcode\", controller = \"Products\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.BaseDados.Models2.TbProduct] GetByBarcode(System.String)" on controller "ApiWebDB.Controllers.ProductsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T12:48:45.6446401-03:00 0HN433BMI7AP5:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=["@__barcode_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t
+WHERE t.barcode = @__barcode_0
+LIMIT 1" (0723d8ff)
+2024-06-02T12:48:45.6527928-03:00 0HN433BMI7AP5:00000004 [INF] Executing "OkObjectResult", writing value of type '"ApiWebDB.DTO.ProductDTO"'. (605b4265)
+2024-06-02T12:48:45.6564870-03:00 0HN433BMI7AP5:00000004 [INF] Executed action "ApiWebDB.Controllers.ProductsController.GetByBarcode (Trabalho Final)" in 26.6582ms (afa2e885)
+2024-06-02T12:48:45.6565988-03:00 0HN433BMI7AP5:00000004 [INF] Executed endpoint '"ApiWebDB.Controllers.ProductsController.GetByBarcode (Trabalho Final)"' (99874f2b)
+2024-06-02T12:48:45.6569497-03:00 0HN433BMI7AP5:00000004 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products/barcode/1234567890123""" - 200 null "application/json; charset=utf-8" 30.1926ms (74253ad3)
+2024-06-02T12:53:02.8697181-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-02T13:07:36.9296873-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-02T13:07:37.0909617-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-02T13:07:37.0940341-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-02T13:07:37.0963486-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-02T13:07:56.0788792-03:00 0HN433OISVR9U:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-02T13:07:56.3080651-03:00 0HN433OISVR9U:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 230.6442ms (74253ad3)
+2024-06-02T13:07:56.5712839-03:00 0HN433OISVR9U:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - null null (d509f86a)
+2024-06-02T13:07:56.6115033-03:00 0HN433OISVR9U:00000002 [INF] Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"' (27b0a520)
+2024-06-02T13:07:56.6125789-03:00 0HN433OISVR9U:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-16x16.png""" - 499 665 "image/png" 40.8238ms (74253ad3)
+2024-06-02T13:07:56.6838972-03:00 0HN433OISVR9V:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-02T13:07:56.9674635-03:00 0HN433OISVR9V:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 283.4698ms (74253ad3)
+2024-06-02T13:08:26.5548491-03:00 0HN433OISVR9V:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products/barcode/1234567890123""" - null null (d509f86a)
+2024-06-02T13:08:26.5686486-03:00 0HN433OISVR9V:00000002 [INF] Executing endpoint '"ApiWebDB.Controllers.ProductsController.GetByBarcode (Trabalho Final)"' (500cc934)
+2024-06-02T13:08:26.6204222-03:00 0HN433OISVR9V:00000002 [INF] Route matched with "{action = \"GetByBarcode\", controller = \"Products\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.BaseDados.Models2.TbProduct] GetByBarcode(System.String)" on controller "ApiWebDB.Controllers.ProductsController" ("Trabalho Final"). (122b2fdf)
+2024-06-02T13:08:28.7798910-03:00 0HN433OISVR9V:00000002 [INF] Executed DbCommand ("77"ms) [Parameters=["@__barcode_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t
+WHERE t.barcode = @__barcode_0
+LIMIT 1" (0723d8ff)
+2024-06-02T13:08:28.9716102-03:00 0HN433OISVR9V:00000002 [INF] Executing "OkObjectResult", writing value of type '"ApiWebDB.DTO.ProductDTO"'. (605b4265)
+2024-06-02T13:08:29.0062731-03:00 0HN433OISVR9V:00000002 [INF] Executed action "ApiWebDB.Controllers.ProductsController.GetByBarcode (Trabalho Final)" in 2381.0807ms (afa2e885)
+2024-06-02T13:08:29.0064079-03:00 0HN433OISVR9V:00000002 [INF] Executed endpoint '"ApiWebDB.Controllers.ProductsController.GetByBarcode (Trabalho Final)"' (99874f2b)
+2024-06-02T13:08:29.0207458-03:00 0HN433OISVR9V:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/api/Products/barcode/1234567890123""" - 200 null "application/json; charset=utf-8" 2465.9325ms (74253ad3)
+2024-06-02T13:09:33.5456964-03:00  [INF] Application is shutting down... (90f52c38)
