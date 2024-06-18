@@ -7,6 +7,9 @@ namespace ApiWebDB.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    /// <summary>
+    /// Controlador para gerenciar logs de estoque.
+    /// </summary>
     public class StockLogsController : ControllerBase
     {
         private readonly StockLogService _stockLogService;
@@ -15,7 +18,12 @@ namespace ApiWebDB.Controllers
         {
             _stockLogService = stockLogService;
         }
-
+         /// <summary>
+        /// Obtém logs de estoque por ID do produto.
+        /// Retorna 200 se bem-sucedido.
+        /// </summary>
+        /// <param name="productId">ID do produto.</param>
+        /// <returns>Lista de logs de estoque para o produto especificado.</returns>
         [HttpGet("product/{productId}")]
         public ActionResult<IEnumerable<StockLogDTO>> GetLogsByProduct(int productId)
         {

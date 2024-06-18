@@ -1,0 +1,282 @@
+2024-06-16T11:39:14.9106107-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-16T11:39:14.9975372-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-16T11:39:14.9996966-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-16T11:39:15.0003458-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-16T11:40:29.1039607-03:00 0HN4E2928UAIP:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-16T11:40:29.3118801-03:00 0HN4E2928UAIP:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 209.0252ms (74253ad3)
+2024-06-16T11:40:29.3373753-03:00 0HN4E2928UAIP:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui.css""" - null null (d509f86a)
+2024-06-16T11:40:29.3548292-03:00 0HN4E2928UAIR:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-standalone-preset.js""" - null null (d509f86a)
+2024-06-16T11:40:29.3601044-03:00 0HN4E2928UAIQ:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-bundle.js""" - null null (d509f86a)
+2024-06-16T11:40:29.3692748-03:00 0HN4E2928UAIQ:00000001 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2024-06-16T11:40:29.3714551-03:00 0HN4E2928UAIQ:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-bundle.js""" - 200 1061536 "text/javascript" 11.2349ms (74253ad3)
+2024-06-16T11:40:29.3718432-03:00 0HN4E2928UAIP:00000002 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2024-06-16T11:40:29.3722927-03:00 0HN4E2928UAIR:00000001 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2024-06-16T11:40:29.3724585-03:00 0HN4E2928UAIR:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-standalone-preset.js""" - 200 312163 "text/javascript" 17.6306ms (74253ad3)
+2024-06-16T11:40:29.3724586-03:00 0HN4E2928UAIP:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui.css""" - 200 144929 "text/css" 35.1036ms (74253ad3)
+2024-06-16T11:40:30.6040704-03:00 0HN4E2928UAIQ:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-16T11:40:30.8382885-03:00 0HN4E2928UAIQ:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 234.1673ms (74253ad3)
+2024-06-16T13:55:43.5657854-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-16T13:55:43.6243435-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-16T13:55:43.6273510-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-16T13:55:43.6278881-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-16T13:55:56.3323555-03:00 0HN4E4KOCBJN6:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-16T13:55:56.4999678-03:00 0HN4E4KOCBJN6:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 168.8932ms (74253ad3)
+2024-06-16T13:55:57.8344549-03:00 0HN4E4KOCBJN6:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-16T13:55:58.1144755-03:00 0HN4E4KOCBJN6:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 279.9096ms (74253ad3)
+2024-06-16T14:00:07.7369742-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-16T14:00:12.0772018-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-16T14:00:12.1274405-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-16T14:00:12.1286952-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-16T14:00:12.1289335-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-16T14:00:20.4833843-03:00 0HN4E4N73DUOL:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-16T14:00:20.6946884-03:00 0HN4E4N73DUOL:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 213.3909ms (74253ad3)
+2024-06-16T14:00:21.4436108-03:00 0HN4E4N73DUOL:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-16T14:00:21.7966960-03:00 0HN4E4N73DUOL:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 353.2425ms (74253ad3)
+2024-06-16T14:14:23.4576365-03:00 0HN4E4N73DUON:00000001 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Sales""" - "application/json" 359 (d509f86a)
+2024-06-16T14:14:23.4658204-03:00 0HN4E4N73DUON:00000001 [INF] Executing endpoint '"ApiWebDB.Controllers.SalesController.Post (Trabalho Final)"' (500cc934)
+2024-06-16T14:14:23.4974881-03:00 0HN4E4N73DUON:00000001 [INF] Route matched with "{action = \"Post\", controller = \"Sales\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiWebDB.DTO.SaleDTO]]] Post(System.Collections.Generic.IEnumerable`1[ApiWebDB.DTO.SaleDTO])" on controller "ApiWebDB.Controllers.SalesController" ("Trabalho Final"). (122b2fdf)
+2024-06-16T14:14:25.4597233-03:00 0HN4E4N73DUON:00000001 [INF] Executed DbCommand ("56"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t
+WHERE t.id = @__p_0
+LIMIT 1" (0723d8ff)
+2024-06-16T14:14:25.7050136-03:00 0HN4E4N73DUON:00000001 [INF] Executed DbCommand ("10"ms) [Parameters=["@__productId_0='?' (DbType = Int32), @__endDate_1='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.enddate, t.productid, t.promotiontype, t.startdate, t.value, t0.id, t0.barcode, t0.barcodetype, t0.costprice, t0.description, t0.price, t0.stock
+FROM tb_promotions AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.productid = @__productId_0 AND t.enddate >= @__endDate_1" (0723d8ff)
+2024-06-16T14:14:25.9204832-03:00 0HN4E4N73DUON:00000001 [INF] Executed DbCommand ("6"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""UPDATE tb_products SET stock = @p0
+WHERE id = @p1;
+INSERT INTO tb_stock_logs (createdat, productid, qty)
+VALUES (@p2, @p3, @p4)
+RETURNING id;" (0723d8ff)
+2024-06-16T14:14:26.0292681-03:00 0HN4E4N73DUON:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t
+WHERE t.id = @__p_0
+LIMIT 1" (0723d8ff)
+2024-06-16T14:14:26.0352386-03:00 0HN4E4N73DUON:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__productId_0='?' (DbType = Int32), @__endDate_1='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.enddate, t.productid, t.promotiontype, t.startdate, t.value, t0.id, t0.barcode, t0.barcodetype, t0.costprice, t0.description, t0.price, t0.stock
+FROM tb_promotions AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.productid = @__productId_0 AND t.enddate >= @__endDate_1" (0723d8ff)
+2024-06-16T14:14:26.0750627-03:00 0HN4E4N73DUON:00000001 [ERR] Failed executing DbCommand ("5"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = Int32), @p2='?', @p3='?' (DbType = DateTime2), @p4='?' (DbType = Decimal), @p5='?' (DbType = Decimal), @p6='?' (DbType = Int32), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int32), @p10='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""UPDATE tb_products SET stock = @p0
+WHERE id = @p1;
+INSERT INTO tb_sales (code, createat, discount, price, productid, qty)
+VALUES (@p2, @p3, @p4, @p5, @p6, @p7)
+RETURNING id;
+INSERT INTO tb_stock_logs (createdat, productid, qty)
+VALUES (@p8, @p9, @p10)
+RETURNING id;" (627a98df)
+2024-06-16T14:14:26.1808949-03:00 0HN4E4N73DUON:00000001 [ERR] An exception occurred in the database while saving changes for context type '"Trabalho_Final.BaseDados.TfDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at TrabalhoFinal.Services.SaleService.LogStockUpdateAsync(Int32 productId, Int32 qty) in /home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/Services/SaleService.cs:line 120
+   at TrabalhoFinal.Services.SaleService.InsertSaleAsync(IEnumerable`1 saleDtos) in /home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/Services/SaleService.cs:line 80
+   at ApiWebDB.Controllers.SalesController.Post(IEnumerable`1 dtos) in /home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/Controllers/SalesController.cs:line 41
+2024-06-16T14:14:26.1997289-03:00 0HN4E4N73DUON:00000001 [INF] Executing "ObjectResult", writing value of type '"System.String"'. (605b4265)
+2024-06-16T14:14:26.2147228-03:00 0HN4E4N73DUON:00000001 [INF] Executed action "ApiWebDB.Controllers.SalesController.Post (Trabalho Final)" in 2704.6685ms (afa2e885)
+2024-06-16T14:14:26.2155233-03:00 0HN4E4N73DUON:00000001 [INF] Executed endpoint '"ApiWebDB.Controllers.SalesController.Post (Trabalho Final)"' (99874f2b)
+2024-06-16T14:14:26.2400867-03:00 0HN4E4N73DUON:00000001 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Sales""" - 500 null "text/plain; charset=utf-8" 2782.3813ms (74253ad3)
+2024-06-16T14:17:27.4251924-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-16T14:17:38.4428423-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-16T14:17:38.4848085-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-16T14:17:38.4858607-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-16T14:17:38.4859992-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-16T14:17:52.1791164-03:00 0HN4E510H50MC:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-16T14:17:52.3851700-03:00 0HN4E510H50MC:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 208.5116ms (74253ad3)
+2024-06-16T14:17:52.4075326-03:00 0HN4E510H50MC:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui.css""" - null null (d509f86a)
+2024-06-16T14:17:52.4096611-03:00 0HN4E510H50MD:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-bundle.js""" - null null (d509f86a)
+2024-06-16T14:17:52.4187077-03:00 0HN4E510H50ME:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-standalone-preset.js""" - null null (d509f86a)
+2024-06-16T14:17:52.4392517-03:00 0HN4E510H50ME:00000001 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2024-06-16T14:17:52.4395125-03:00 0HN4E510H50MD:00000001 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2024-06-16T14:17:52.4407462-03:00 0HN4E510H50MC:00000002 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2024-06-16T14:17:52.4420495-03:00 0HN4E510H50MC:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui.css""" - 200 144929 "text/css" 34.5836ms (74253ad3)
+2024-06-16T14:17:52.4420490-03:00 0HN4E510H50MD:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-bundle.js""" - 200 1061536 "text/javascript" 32.309ms (74253ad3)
+2024-06-16T14:17:52.4420490-03:00 0HN4E510H50ME:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-standalone-preset.js""" - 200 312163 "text/javascript" 23.2726ms (74253ad3)
+2024-06-16T14:17:53.2086272-03:00 0HN4E510H50MD:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-16T14:17:53.2366840-03:00 0HN4E510H50ME:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-32x32.png""" - null null (d509f86a)
+2024-06-16T14:17:53.2372568-03:00 0HN4E510H50ME:00000002 [INF] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"' (27b0a520)
+2024-06-16T14:17:53.2374501-03:00 0HN4E510H50ME:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-32x32.png""" - 200 628 "image/png" 0.7941ms (74253ad3)
+2024-06-16T14:17:53.4649541-03:00 0HN4E510H50MD:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 256.3055ms (74253ad3)
+2024-06-16T14:18:18.8492068-03:00 0HN4E510H50MD:00000003 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Sales""" - "application/json" 359 (d509f86a)
+2024-06-16T14:18:18.8575212-03:00 0HN4E510H50MD:00000003 [INF] Executing endpoint '"ApiWebDB.Controllers.SalesController.Post (Trabalho Final)"' (500cc934)
+2024-06-16T14:18:18.9036168-03:00 0HN4E510H50MD:00000003 [INF] Route matched with "{action = \"Post\", controller = \"Sales\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiWebDB.DTO.SaleDTO]]] Post(System.Collections.Generic.IEnumerable`1[ApiWebDB.DTO.SaleDTO])" on controller "ApiWebDB.Controllers.SalesController" ("Trabalho Final"). (122b2fdf)
+2024-06-16T14:18:20.6967322-03:00 0HN4E510H50MD:00000003 [INF] Executed DbCommand ("60"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t
+WHERE t.id = @__p_0
+LIMIT 1" (0723d8ff)
+2024-06-16T14:18:20.9621835-03:00 0HN4E510H50MD:00000003 [INF] Executed DbCommand ("14"ms) [Parameters=["@__productId_0='?' (DbType = Int32), @__endDate_1='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.enddate, t.productid, t.promotiontype, t.startdate, t.value, t0.id, t0.barcode, t0.barcodetype, t0.costprice, t0.description, t0.price, t0.stock
+FROM tb_promotions AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.productid = @__productId_0 AND t.enddate >= @__endDate_1" (0723d8ff)
+2024-06-16T14:18:21.2069424-03:00 0HN4E510H50MD:00000003 [INF] Executed DbCommand ("6"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""UPDATE tb_products SET stock = @p0
+WHERE id = @p1;
+INSERT INTO tb_stock_logs (createdat, productid, qty)
+VALUES (@p2, @p3, @p4)
+RETURNING id;" (0723d8ff)
+2024-06-16T14:18:21.3258906-03:00 0HN4E510H50MD:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t
+WHERE t.id = @__p_0
+LIMIT 1" (0723d8ff)
+2024-06-16T14:18:21.3322541-03:00 0HN4E510H50MD:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__productId_0='?' (DbType = Int32), @__endDate_1='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.enddate, t.productid, t.promotiontype, t.startdate, t.value, t0.id, t0.barcode, t0.barcodetype, t0.costprice, t0.description, t0.price, t0.stock
+FROM tb_promotions AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.productid = @__productId_0 AND t.enddate >= @__endDate_1" (0723d8ff)
+2024-06-16T14:18:21.3632416-03:00 0HN4E510H50MD:00000003 [ERR] Failed executing DbCommand ("7"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = Int32), @p2='?', @p3='?' (DbType = DateTime2), @p4='?' (DbType = Decimal), @p5='?' (DbType = Decimal), @p6='?' (DbType = Int32), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int32), @p10='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""UPDATE tb_products SET stock = @p0
+WHERE id = @p1;
+INSERT INTO tb_sales (code, createat, discount, price, productid, qty)
+VALUES (@p2, @p3, @p4, @p5, @p6, @p7)
+RETURNING id;
+INSERT INTO tb_stock_logs (createdat, productid, qty)
+VALUES (@p8, @p9, @p10)
+RETURNING id;" (627a98df)
+2024-06-16T14:18:21.4725282-03:00 0HN4E510H50MD:00000003 [ERR] An exception occurred in the database while saving changes for context type '"Trabalho_Final.BaseDados.TfDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at TrabalhoFinal.Services.SaleService.LogStockUpdateAsync(Int32 productId, Int32 qty) in /home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/Services/SaleService.cs:line 134
+   at TrabalhoFinal.Services.SaleService.InsertSaleAsync(IEnumerable`1 saleDtos) in /home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/Services/SaleService.cs:line 80
+   at ApiWebDB.Controllers.SalesController.Post(IEnumerable`1 dtos) in /home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/Controllers/SalesController.cs:line 41
+2024-06-16T14:18:21.4831931-03:00 0HN4E510H50MD:00000003 [INF] Executing "ObjectResult", writing value of type '"System.String"'. (605b4265)
+2024-06-16T14:18:21.4971302-03:00 0HN4E510H50MD:00000003 [INF] Executed action "ApiWebDB.Controllers.SalesController.Post (Trabalho Final)" in 2580.2135ms (afa2e885)
+2024-06-16T14:18:21.4977981-03:00 0HN4E510H50MD:00000003 [INF] Executed endpoint '"ApiWebDB.Controllers.SalesController.Post (Trabalho Final)"' (99874f2b)
+2024-06-16T14:18:21.5270537-03:00 0HN4E510H50MD:00000003 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Sales""" - 500 null "text/plain; charset=utf-8" 2677.3081ms (74253ad3)
+2024-06-16T20:46:55.4550337-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-16T20:46:55.4639379-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-16T20:46:55.4653490-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-16T20:46:55.4656014-03:00  [INF] Content root path: "C:\Repositorios\Paradigmas\trabalhoFinal\trabalhoFinal" (cc26f24e)
+2024-06-16T21:49:07.6726743-03:00 0HN4ECT5KAMC0:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/""" - null null (d509f86a)
+2024-06-16T21:49:07.8618234-03:00 0HN4ECT5KAMC0:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/""" - 404 0 null 193.2652ms (74253ad3)
+2024-06-16T21:49:07.8650135-03:00 0HN4ECT5KAMC0:00000001 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5113""""/", Response status code: 404 (e353595a)
+2024-06-16T21:49:07.9385723-03:00 0HN4ECT5KAMC0:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/favicon.ico""" - null null (d509f86a)
+2024-06-16T21:49:07.9406514-03:00 0HN4ECT5KAMC0:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/favicon.ico""" - 404 0 null 2.0328ms (74253ad3)
+2024-06-16T21:49:07.9408089-03:00 0HN4ECT5KAMC0:00000002 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5113""""/favicon.ico", Response status code: 404 (e353595a)
+2024-06-16T21:49:10.6480465-03:00 0HN4ECT5KAMC0:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/""" - null null (d509f86a)
+2024-06-16T21:49:10.6496730-03:00 0HN4ECT5KAMC0:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/""" - 404 0 null 1.6079ms (74253ad3)
+2024-06-16T21:49:10.6497873-03:00 0HN4ECT5KAMC0:00000003 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5113""""/", Response status code: 404 (e353595a)
+2024-06-16T21:49:19.7042967-03:00 0HN4ECT5KAMC0:00000004 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-16T21:49:19.8341572-03:00 0HN4ECT5KAMC0:00000004 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 129.9317ms (74253ad3)
+2024-06-16T21:49:19.8710987-03:00 0HN4ECT5KAMC0:00000005 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui.css""" - null null (d509f86a)
+2024-06-16T21:49:19.8733167-03:00 0HN4ECT5KAMC1:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-bundle.js""" - null null (d509f86a)
+2024-06-16T21:49:19.8733906-03:00 0HN4ECT5KAMC2:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-standalone-preset.js""" - null null (d509f86a)
+2024-06-16T21:49:19.9028446-03:00 0HN4ECT5KAMC0:00000005 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2024-06-16T21:49:19.9030751-03:00 0HN4ECT5KAMC2:00000001 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2024-06-16T21:49:19.9050414-03:00 0HN4ECT5KAMC0:00000005 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui.css""" - 200 144929 "text/css" 33.8433ms (74253ad3)
+2024-06-16T21:49:19.9050468-03:00 0HN4ECT5KAMC2:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-standalone-preset.js""" - 200 312163 "text/javascript" 31.5203ms (74253ad3)
+2024-06-16T21:49:19.9139896-03:00 0HN4ECT5KAMC1:00000001 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2024-06-16T21:49:19.9144123-03:00 0HN4ECT5KAMC1:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/swagger-ui-bundle.js""" - 200 1061536 "text/javascript" 41.1682ms (74253ad3)
+2024-06-16T21:49:20.1359369-03:00 0HN4ECT5KAMC1:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-16T21:49:20.2371304-03:00 0HN4ECT5KAMC2:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-32x32.png""" - null null (d509f86a)
+2024-06-16T21:49:20.2376353-03:00 0HN4ECT5KAMC2:00000002 [INF] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"' (27b0a520)
+2024-06-16T21:49:20.2377796-03:00 0HN4ECT5KAMC2:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/favicon-32x32.png""" - 200 628 "image/png" 0.6551ms (74253ad3)
+2024-06-16T21:49:20.5534207-03:00 0HN4ECT5KAMC1:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 417.4603ms (74253ad3)

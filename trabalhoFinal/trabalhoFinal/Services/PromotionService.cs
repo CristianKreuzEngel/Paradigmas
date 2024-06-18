@@ -20,12 +20,12 @@ namespace TrabalhoFinal.Services
 
         public List<TbPromotion> GetPromotionsByProductAndPeriod(int productId, DateTime startDate, DateTime endDate)
         {
-            var promotions =  _context.TbPromotions.Include(p => p.Product).Where(p => p.Productid == productId && p.Startdate >= startDate && p.Enddate <= endDate).ToList();
+            var promotions = _context.TbPromotions.Include(p => p.Product).Where(p => p.Productid == productId && p.Startdate >= startDate && p.Enddate <= endDate).ToList();
             return promotions;
         }
         public List<TbPromotion> GetPromotionsByProductAndEnd(int productId, DateTime endDate)
         {
-            var promotions =  _context.TbPromotions.Include(p => p.Product).Where(p => p.Productid == productId && p.Enddate >= endDate).ToList();
+            var promotions = _context.TbPromotions.Include(p => p.Product).Where(p => p.Productid == productId && p.Enddate >= endDate).ToList();
             return promotions;
         }
 
@@ -46,11 +46,7 @@ namespace TrabalhoFinal.Services
 
         public TbPromotion Update(PromotionDTO dto, int id)
         {
-            var promotion = _context.TbPromotions.Find(id);
-            if (promotion == null)
-            {
-                throw new NotFoundException("Promotion not found");
-            }
+            var promotion = _context.TbPromotions.Find(id) ?? throw new NotFoundException("Promotion not found");
             promotion.Startdate = dto.Startdate;
             promotion.Enddate = dto.Enddate;
             promotion.Promotiontype = dto.Promotiontype;

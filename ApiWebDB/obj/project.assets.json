@@ -4635,26 +4635,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\Cristian\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usuario\\Downloads\\Paradigmas-master\\Paradigmas-master\\ApiWebDB\\ApiWebDB.csproj",
+      "projectUniqueName": "C:\\Repositorios\\Paradigmas\\ApiWebDB\\ApiWebDB.csproj",
       "projectName": "ApiWebDB",
-      "projectPath": "C:\\Users\\usuario\\Downloads\\Paradigmas-master\\Paradigmas-master\\ApiWebDB\\ApiWebDB.csproj",
-      "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usuario\\Downloads\\Paradigmas-master\\Paradigmas-master\\ApiWebDB\\obj\\",
+      "projectPath": "C:\\Repositorios\\Paradigmas\\ApiWebDB\\ApiWebDB.csproj",
+      "packagesPath": "C:\\Users\\Cristian\\.nuget\\packages\\",
+      "outputPath": "C:\\Repositorios\\Paradigmas\\ApiWebDB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Cristian\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4730,7 +4728,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

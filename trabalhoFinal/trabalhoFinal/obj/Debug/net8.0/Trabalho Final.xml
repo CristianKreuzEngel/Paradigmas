@@ -144,5 +144,108 @@
             Data da movimentação
             </summary>
         </member>
+        <member name="M:ApiWebDB.Controllers.ProductsController.GetByBarcode(System.String)">
+            <summary>
+            Obtém um produto pelo código de barras.
+            Retorna 200 se bem-sucedido e 404 se o produto não for encontrado.
+            </summary>
+            <param name="barcode">Código de barras do produto.</param>
+            <returns>O produto correspondente ao código de barras.</returns>
+        </member>
+        <member name="M:ApiWebDB.Controllers.ProductsController.GetByDescription(System.String)">
+            <summary>
+            Obtém produtos pela descrição.
+            Retorna 200 se bem-sucedido e 404 se nenhum produto for encontrado.
+            </summary>
+            <param name="description">Descrição do produto.</param>
+            <returns>Lista de produtos que correspondem à descrição.</returns>
+        </member>
+        <member name="M:ApiWebDB.Controllers.ProductsController.Post(ApiWebDB.DTO.ProductDTO)">
+            <summary>
+            Adiciona um novo produto.
+            Retorna 200 se bem-sucedido, 400 para requisição inválida.
+            </summary>
+            <param name="product">O objeto do produto a ser inserido.</param>
+            <returns>O produto inserido.</returns>
+        </member>
+        <member name="M:ApiWebDB.Controllers.ProductsController.Put(System.Int32,ApiWebDB.DTO.ProductDTO)">
+            <summary>
+            Atualiza um produto existente.
+            Retorna 204 se bem-sucedido, 400 para requisição inválida e 404 se o produto não for encontrado.
+            </summary>
+            <param name="id">ID do produto a ser atualizado.</param>
+            <param name="product">O objeto do produto atualizado.</param>
+            <returns>O produto atualizado.</returns>
+        </member>
+        <member name="M:ApiWebDB.Controllers.ProductsController.AdjustStock(System.Int32,System.Int32)">
+            <summary>
+            Ajusta o estoque de um produto.
+            Retorna 204 se bem-sucedido e 404 se o produto não for encontrado.
+            </summary>
+            <param name="id">ID do produto.</param>
+            <param name="quantity">Quantidade a ser ajustada.</param>
+            <returns>Resultado da operação.</returns>
+        </member>
+        <member name="M:ApiWebDB.Controllers.PromotionsController.GetPromotionsByProductAndPeriod(System.Int32,System.DateTime,System.DateTime)">
+            <summary>
+            Obtém promoções por produto e período.
+            Retorna 200 se bem-sucedido e 404 se nenhuma promoção for encontrada.
+            </summary>
+            <param name="productId">ID do produto.</param>
+            <param name="startDate">Data de início do período.</param>
+            <param name="endDate">Data de término do período.</param>
+            <returns>Lista de promoções.</returns>
+        </member>
+        <member name="M:ApiWebDB.Controllers.PromotionsController.Post(ApiWebDB.DTO.PromotionDTO)">
+            <summary>
+            Adiciona uma nova promoção.
+            Retorna 200 se bem-sucedido, 400 para requisição inválida.
+            </summary>
+            <param name="dto">O objeto da promoção a ser inserida.</param>
+            <returns>A promoção inserida.</returns>
+        </member>
+        <member name="M:ApiWebDB.Controllers.PromotionsController.Put(System.Int32,ApiWebDB.DTO.PromotionDTO)">
+            <summary>
+            Atualiza uma promoção existente.
+            Retorna 204 se bem-sucedido, 400 para requisição inválida e 404 se a promoção não for encontrada.
+            </summary>
+            <param name="id">ID da promoção a ser atualizada.</param>
+            <param name="dto">O objeto da promoção atualizada.</param>
+            <returns>Resultado da operação.</returns>
+        </member>
+        <member name="M:ApiWebDB.Controllers.SalesController.Get(System.String)">
+            <summary>
+            Obtém uma venda pelo código.
+            Retorna 200 se bem-sucedido e 404 se a venda não for encontrada.
+            </summary>
+            <param name="code">Código da venda.</param>
+            <returns>O objeto da venda correspondente ao código.</returns>
+        </member>
+        <member name="M:ApiWebDB.Controllers.SalesController.Post(ApiWebDB.DTO.SaleDTO)">
+            <summary>
+            Adiciona uma nova venda.
+            Retorna 201 se bem-sucedido, 400 para requisição inválida, 404 se um item não for encontrado, e 500 para erro interno do servidor.
+            </summary>
+            <param name="saleRequestDto">O objeto de requisição contendo a venda e os produtos.</param>
+            <returns>As vendas inseridas.</returns>
+        </member>
+        <member name="M:ApiWebDB.Controllers.SalesController.GetSalesReportByPeriod(System.String,System.DateTime,System.DateTime)">
+            <summary>
+            Obtém um relatório de vendas por período.
+            Retorna 200 se bem-sucedido.
+            </summary>
+            <param name="code">Código da venda.</param>
+            <param name="startDate">Data de início do período.</param>
+            <param name="endDate">Data de término do período.</param>
+            <returns>Relatório de vendas.</returns>
+        </member>
+        <member name="M:ApiWebDB.Controllers.StockLogsController.GetLogsByProduct(System.Int32)">
+            <summary>
+            Obtém logs de estoque por ID do produto.
+            Retorna 200 se bem-sucedido.
+            </summary>
+            <param name="productId">ID do produto.</param>
+            <returns>Lista de logs de estoque para o produto especificado.</returns>
+        </member>
     </members>
 </doc>

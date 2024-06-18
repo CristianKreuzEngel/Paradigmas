@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/Trabalho Final.csproj": {}
+    "C:\\Repositorios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\Trabalho Final.csproj": {}
   },
   "projects": {
-    "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/Trabalho Final.csproj": {
+    "C:\\Repositorios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\Trabalho Final.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/Trabalho Final.csproj",
+        "projectUniqueName": "C:\\Repositorios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\Trabalho Final.csproj",
         "projectName": "Trabalho Final",
-        "projectPath": "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/Trabalho Final.csproj",
-        "packagesPath": "/home/engel/.nuget/packages/",
-        "outputPath": "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/obj/",
+        "projectPath": "C:\\Repositorios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\Trabalho Final.csproj",
+        "packagesPath": "C:\\Users\\Cristian\\.nuget\\packages\\",
+        "outputPath": "C:\\Repositorios\\Paradigmas\\trabalhoFinal\\trabalhoFinal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/engel/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Cristian\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -46,6 +46,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
             },
             "Microsoft.AspNetCore.Mvc.Formatters.Xml": {
               "target": "Package",
@@ -97,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

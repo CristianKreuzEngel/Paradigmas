@@ -1,0 +1,135 @@
+2024-06-04T19:48:54.6379444-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-04T19:48:54.6874629-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-04T19:48:54.6886097-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-04T19:48:54.6886779-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-04T19:48:59.0637901-03:00 0HN44T22QM685:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-04T19:48:59.3195763-03:00 0HN44T22QM685:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 258.6477ms (74253ad3)
+2024-06-04T19:48:59.5142418-03:00 0HN44T22QM685:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-04T19:48:59.7263660-03:00 0HN44T22QM685:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 212.0919ms (74253ad3)
+2024-06-04T20:06:28.3298194-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-04T20:07:53.5816391-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-04T20:07:53.6435187-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-04T20:07:53.6443940-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-04T20:07:53.6444824-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-04T20:07:57.4765772-03:00 0HN44TCM3NMQB:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - null null (d509f86a)
+2024-06-04T20:07:57.7570831-03:00 0HN44TCM3NMQB:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 283.4973ms (74253ad3)
+2024-06-04T20:07:58.7412501-03:00 0HN44TCM3NMQB:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-04T20:07:59.0456837-03:00 0HN44TCM3NMQB:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5113""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 304.3762ms (74253ad3)
+2024-06-04T20:08:56.5181809-03:00 0HN44TCM3NMQB:00000003 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Products""" - "application/json" 150 (d509f86a)
+2024-06-04T20:08:56.5259515-03:00 0HN44TCM3NMQB:00000003 [INF] Executing endpoint '"ApiWebDB.Controllers.ProductsController.Post (Trabalho Final)"' (500cc934)
+2024-06-04T20:08:56.5523003-03:00 0HN44TCM3NMQB:00000003 [INF] Route matched with "{action = \"Post\", controller = \"Products\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.BaseDados.Models2.TbProduct] Post(ApiWebDB.DTO.ProductDTO)" on controller "ApiWebDB.Controllers.ProductsController" ("Trabalho Final"). (122b2fdf)
+2024-06-04T20:08:56.9035734-03:00 0HN44TCM3NMQB:00000003 [INF] Executed action "ApiWebDB.Controllers.ProductsController.Post (Trabalho Final)" in 345.0125ms (afa2e885)
+2024-06-04T20:08:56.9042967-03:00 0HN44TCM3NMQB:00000003 [INF] Executed endpoint '"ApiWebDB.Controllers.ProductsController.Post (Trabalho Final)"' (99874f2b)
+2024-06-04T20:08:56.9338820-03:00 0HN44TCM3NMQB:00000003 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+ApiWebDB.Services.Exceptions.InvalidEntityException: Código de barras é inválido.
+   at ApiWebDB.Services.Validate.ProductValidator.Validate(TbProduct product) in /home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/Services/Validate/ProductValidator.cs:line 36
+   at TrabalhoFinal.Services.ProductService.Insert(ProductDTO dto) in /home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/Services/ProductService.cs:line 51
+   at ApiWebDB.Controllers.ProductsController.Post(ProductDTO dto) in /home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal/Controllers/ProductsController.cs:line 57
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-04T20:08:56.9522979-03:00 0HN44TCM3NMQB:00000003 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Products""" - 500 null "text/plain; charset=utf-8" 433.9023ms (74253ad3)
+2024-06-04T20:09:29.7991439-03:00 0HN44TCM3NMQB:00000004 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Products""" - "application/json" 151 (d509f86a)
+2024-06-04T20:09:29.8030594-03:00 0HN44TCM3NMQB:00000004 [INF] Executing endpoint '"ApiWebDB.Controllers.ProductsController.Post (Trabalho Final)"' (500cc934)
+2024-06-04T20:09:29.8039973-03:00 0HN44TCM3NMQB:00000004 [INF] Route matched with "{action = \"Post\", controller = \"Products\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.BaseDados.Models2.TbProduct] Post(ApiWebDB.DTO.ProductDTO)" on controller "ApiWebDB.Controllers.ProductsController" ("Trabalho Final"). (122b2fdf)
+2024-06-04T20:09:31.6387546-03:00 0HN44TCM3NMQB:00000004 [INF] Executed DbCommand ("90"ms) [Parameters=["@p0='?', @p1='?', @p2='?' (DbType = Decimal), @p3='?', @p4='?' (DbType = Decimal), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tb_products (barcode, barcodetype, costprice, description, price, stock)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING id;" (0723d8ff)
+2024-06-04T20:09:31.7889717-03:00 0HN44TCM3NMQB:00000004 [INF] Executed DbCommand ("11"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tb_stock_logs (createdat, productid, qty)
+VALUES (@p0, @p1, @p2)
+RETURNING id;" (0723d8ff)
+2024-06-04T20:09:31.8367396-03:00 0HN44TCM3NMQB:00000004 [INF] Executing "OkObjectResult", writing value of type '"ApiWebDB.DTO.ProductDTO"'. (605b4265)
+2024-06-04T20:09:31.8716046-03:00 0HN44TCM3NMQB:00000004 [INF] Executed action "ApiWebDB.Controllers.ProductsController.Post (Trabalho Final)" in 2067.279ms (afa2e885)
+2024-06-04T20:09:31.8717802-03:00 0HN44TCM3NMQB:00000004 [INF] Executed endpoint '"ApiWebDB.Controllers.ProductsController.Post (Trabalho Final)"' (99874f2b)
+2024-06-04T20:09:31.8818258-03:00 0HN44TCM3NMQB:00000004 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Products""" - 200 null "application/json; charset=utf-8" 2082.6571ms (74253ad3)
+2024-06-04T20:12:39.3580227-03:00 0HN44TCM3NMQD:00000001 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Sales""" - "application/json" 132 (d509f86a)
+2024-06-04T20:12:39.3589203-03:00 0HN44TCM3NMQD:00000001 [INF] Executing endpoint '"ApiWebDB.Controllers.SalesController.Post (Trabalho Final)"' (500cc934)
+2024-06-04T20:12:39.3651860-03:00 0HN44TCM3NMQD:00000001 [INF] Route matched with "{action = \"Post\", controller = \"Sales\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.BaseDados.Models2.TbSale] Post(ApiWebDB.DTO.SaleDTO)" on controller "ApiWebDB.Controllers.SalesController" ("Trabalho Final"). (122b2fdf)
+2024-06-04T20:12:39.8289835-03:00 0HN44TCM3NMQD:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t
+WHERE t.id = @__p_0
+LIMIT 1" (0723d8ff)
+2024-06-04T20:12:40.0076489-03:00 0HN44TCM3NMQD:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@__productId_0='?' (DbType = Int32), @__endDate_1='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.enddate, t.productid, t.promotiontype, t.startdate, t.value, t0.id, t0.barcode, t0.barcodetype, t0.costprice, t0.description, t0.price, t0.stock
+FROM tb_promotions AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.productid = @__productId_0 AND t.enddate >= @__endDate_1" (0723d8ff)
+2024-06-04T20:12:40.0529170-03:00 0HN44TCM3NMQD:00000001 [INF] Executed DbCommand ("12"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""UPDATE tb_products SET stock = @p0
+WHERE id = @p1;
+INSERT INTO tb_stock_logs (createdat, productid, qty)
+VALUES (@p2, @p3, @p4)
+RETURNING id;" (0723d8ff)
+2024-06-04T20:12:40.1767712-03:00 0HN44TCM3NMQD:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@p0='?', @p1='?' (DbType = DateTime2), @p2='?' (DbType = Decimal), @p3='?' (DbType = Decimal), @p4='?' (DbType = Int32), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tb_sales (code, createat, discount, price, productid, qty)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING id;" (0723d8ff)
+2024-06-04T20:12:40.2007795-03:00 0HN44TCM3NMQD:00000001 [INF] Executing "ObjectResult", writing value of type '"ApiWebDB.BaseDados.Models2.TbSale"'. (605b4265)
+2024-06-04T20:12:40.2732675-03:00 0HN44TCM3NMQD:00000001 [INF] Executed action "ApiWebDB.Controllers.SalesController.Post (Trabalho Final)" in 907.978ms (afa2e885)
+2024-06-04T20:12:40.2733776-03:00 0HN44TCM3NMQD:00000001 [INF] Executed endpoint '"ApiWebDB.Controllers.SalesController.Post (Trabalho Final)"' (99874f2b)
+2024-06-04T20:12:40.2738091-03:00 0HN44TCM3NMQD:00000001 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Sales""" - 200 null "application/json; charset=utf-8" 915.9958ms (74253ad3)
+2024-06-04T20:24:51.5061760-03:00  [INF] Application is shutting down... (90f52c38)
+2024-06-04T20:24:59.7833710-03:00  [INF] Now listening on: "http://localhost:5113" (d826f4b8)
+2024-06-04T20:24:59.8599658-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-04T20:24:59.8607715-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-04T20:24:59.8608621-03:00  [INF] Content root path: "/home/engel/repositorios/Paradigmas/trabalhoFinal/trabalhoFinal" (cc26f24e)
+2024-06-04T20:25:12.1134923-03:00 0HN44TMAEV4VU:00000001 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Sales""" - "application/json" 132 (d509f86a)
+2024-06-04T20:25:12.1846049-03:00 0HN44TMAEV4VU:00000001 [INF] Executing endpoint '"ApiWebDB.Controllers.SalesController.Post (Trabalho Final)"' (500cc934)
+2024-06-04T20:25:12.2166218-03:00 0HN44TMAEV4VU:00000001 [INF] Route matched with "{action = \"Post\", controller = \"Sales\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.BaseDados.Models2.TbSale] Post(ApiWebDB.DTO.SaleDTO)" on controller "ApiWebDB.Controllers.SalesController" ("Trabalho Final"). (122b2fdf)
+2024-06-04T20:25:14.3346870-03:00 0HN44TMAEV4VU:00000001 [INF] Executed DbCommand ("56"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t
+WHERE t.id = @__p_0
+LIMIT 1" (0723d8ff)
+2024-06-04T20:25:14.5842472-03:00 0HN44TMAEV4VU:00000001 [INF] Executed DbCommand ("9"ms) [Parameters=["@__productId_0='?' (DbType = Int32), @__endDate_1='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.enddate, t.productid, t.promotiontype, t.startdate, t.value, t0.id, t0.barcode, t0.barcodetype, t0.costprice, t0.description, t0.price, t0.stock
+FROM tb_promotions AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.productid = @__productId_0 AND t.enddate >= @__endDate_1" (0723d8ff)
+2024-06-04T20:25:14.8479906-03:00 0HN44TMAEV4VU:00000001 [INF] Executed DbCommand ("7"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""UPDATE tb_products SET stock = @p0
+WHERE id = @p1;
+INSERT INTO tb_stock_logs (createdat, productid, qty)
+VALUES (@p2, @p3, @p4)
+RETURNING id;" (0723d8ff)
+2024-06-04T20:25:14.9589418-03:00 0HN44TMAEV4VU:00000001 [INF] Executed DbCommand ("9"ms) [Parameters=["@p0='?', @p1='?' (DbType = DateTime2), @p2='?' (DbType = Decimal), @p3='?' (DbType = Decimal), @p4='?' (DbType = Int32), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tb_sales (code, createat, discount, price, productid, qty)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING id;" (0723d8ff)
+2024-06-04T20:25:15.0236827-03:00 0HN44TMAEV4VU:00000001 [INF] Executing "ObjectResult", writing value of type '"ApiWebDB.BaseDados.Models2.TbSale"'. (605b4265)
+2024-06-04T20:25:15.1011738-03:00 0HN44TMAEV4VU:00000001 [INF] Executed action "ApiWebDB.Controllers.SalesController.Post (Trabalho Final)" in 2880.6175ms (afa2e885)
+2024-06-04T20:25:15.1014300-03:00 0HN44TMAEV4VU:00000001 [INF] Executed endpoint '"ApiWebDB.Controllers.SalesController.Post (Trabalho Final)"' (99874f2b)
+2024-06-04T20:25:15.1183079-03:00 0HN44TMAEV4VU:00000001 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Sales""" - 200 null "application/json; charset=utf-8" 3007.8977ms (74253ad3)
+2024-06-04T21:09:00.3324218-03:00 0HN44TMAEV4VV:00000001 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Sales""" - "application/json" 140 (d509f86a)
+2024-06-04T21:09:00.3753953-03:00 0HN44TMAEV4VV:00000001 [INF] Executing endpoint '"ApiWebDB.Controllers.SalesController.Post (Trabalho Final)"' (500cc934)
+2024-06-04T21:09:00.3897594-03:00 0HN44TMAEV4VV:00000001 [INF] Route matched with "{action = \"Post\", controller = \"Sales\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.BaseDados.Models2.TbSale] Post(ApiWebDB.DTO.SaleDTO)" on controller "ApiWebDB.Controllers.SalesController" ("Trabalho Final"). (122b2fdf)
+2024-06-04T21:09:00.4573417-03:00 0HN44TMAEV4VV:00000001 [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. (605b4265)
+2024-06-04T21:09:00.5058066-03:00 0HN44TMAEV4VV:00000001 [INF] Executed action "ApiWebDB.Controllers.SalesController.Post (Trabalho Final)" in 115.1245ms (afa2e885)
+2024-06-04T21:09:00.5059394-03:00 0HN44TMAEV4VV:00000001 [INF] Executed endpoint '"ApiWebDB.Controllers.SalesController.Post (Trabalho Final)"' (99874f2b)
+2024-06-04T21:09:00.5065825-03:00 0HN44TMAEV4VV:00000001 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Sales""" - 400 null "application/problem+json; charset=utf-8" 183.344ms (74253ad3)
+2024-06-04T21:09:34.1346976-03:00 0HN44TMAEV4VV:00000002 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Sales""" - "application/json" 140 (d509f86a)
+2024-06-04T21:09:34.1383493-03:00 0HN44TMAEV4VV:00000002 [INF] Executing endpoint '"ApiWebDB.Controllers.SalesController.Post (Trabalho Final)"' (500cc934)
+2024-06-04T21:09:34.1388938-03:00 0HN44TMAEV4VV:00000002 [INF] Route matched with "{action = \"Post\", controller = \"Sales\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiWebDB.BaseDados.Models2.TbSale] Post(ApiWebDB.DTO.SaleDTO)" on controller "ApiWebDB.Controllers.SalesController" ("Trabalho Final"). (122b2fdf)
+2024-06-04T21:09:34.1457823-03:00 0HN44TMAEV4VV:00000002 [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. (605b4265)
+2024-06-04T21:09:34.1468662-03:00 0HN44TMAEV4VV:00000002 [INF] Executed action "ApiWebDB.Controllers.SalesController.Post (Trabalho Final)" in 7.5681ms (afa2e885)
+2024-06-04T21:09:34.1474231-03:00 0HN44TMAEV4VV:00000002 [INF] Executed endpoint '"ApiWebDB.Controllers.SalesController.Post (Trabalho Final)"' (99874f2b)
+2024-06-04T21:09:34.1477996-03:00 0HN44TMAEV4VV:00000002 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5113""""/api/Sales""" - 400 null "application/problem+json; charset=utf-8" 13.0283ms (74253ad3)

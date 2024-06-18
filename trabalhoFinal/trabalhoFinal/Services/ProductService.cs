@@ -78,7 +78,7 @@ namespace TrabalhoFinal.Services
             var product = _context.TbProducts.Find(productId);
             if (product == null)
             {
-                throw new NotFoundException("Product not found");
+                throw new NotFoundException("Produto não encontrado");
             }
             product.Stock += quantity;
             _context.TbProducts.Update(product);

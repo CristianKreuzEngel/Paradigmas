@@ -39,6 +39,10 @@ namespace TrabalhoFinal.Services
             {
                 throw new InvalidOperationException("Estoque insuficiente");
             }
+            if (dto.Qty <= 0)
+            {
+                throw new InvalidOperationException("Quantidade inválida");
+            }
             var currentDate = DateTime.SpecifyKind(DateTime.Now, DateTimeKind.Unspecified);
             var activePromotions = _promotionService.GetPromotionsByProductAndEnd(dto.Productid, currentDate);
             decimal discount = CalculateDiscount(activePromotions, dto.Price, dto.Qty);
